@@ -1,1 +1,1 @@
-*.md linguist-language=TypeScript
+*.ts linguist-language=TypeScript
