@@ -1,9 +1,9 @@
-<h1 style="align: center;">#ng-tech-events 💡</h1>
+<h1 align="center">#ng-tech-events 💡</h1>
 
-<p style="align: center;">
+<p align="center">
    <a href="#abuja">Abuja</a> &#183; <a href="#ilorin">Ilorin</a> &#183; <a href="#lagos">Lagos</a> &#183; <a href="#portharcourt">Port Harcourt</a>
 </p>
-<p style="align: center;">A pool of upcoming and perhaps old tech events happening 9ja's tech ecosystem.</p>
+<p align="center">A pool of upcoming and perhaps old tech events happening 9ja's tech ecosystem.</p>
 
 # Ilorin
 
