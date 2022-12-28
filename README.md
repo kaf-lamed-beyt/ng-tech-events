@@ -26,3 +26,11 @@
   Open-Source based conference/meetups for every technical talent in Africa and around the globe, focused on hands-on workshops and worldclass talks from around the world.
 
   Date & Venue: TBA (To be announced)
+
+- **DevFest Lagos 2023**
+
+  Join us for the annual developer festival of sessions, workshops, training, codelabs, and much more by awesome speakers. 
+  
+  DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google's developer tools.
+
+  Date & Venue: TBA (To be announced)
