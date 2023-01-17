@@ -7,6 +7,14 @@
 
 # Ilorin
 
+- **Polygon Ilorin &mdash; Introduction to Web3**
+
+  Introduction to web3 and the official launch of the Polygon Guild Ilorin
+
+  Date: Saturday 28th, January 2023
+  Venue: Peace Hotel
+  [Register here](https://docs.google.com/forms/d/1k7xP-i4WOSFwmkH9WRC2gUtBTbnIj65n5H32-mqMNTM/viewform?edit_requested=true)
+
 - **KWASU TechFest 2023**
 
   An annual gathering of student developers on Kwara State University campus in collaboration with the Google Developer Student Clubs community
@@ -29,8 +37,8 @@
 
 - **DevFest Lagos 2023**
 
-  Join us for the annual developer festival of sessions, workshops, training, codelabs, and much more by awesome speakers. 
-  
+  Join us for the annual developer festival of sessions, workshops, training, codelabs, and much more by awesome speakers.
+
   DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google's developer tools.
 
   Date & Venue: TBA (To be announced)
