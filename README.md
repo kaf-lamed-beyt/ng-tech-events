@@ -13,6 +13,7 @@
 
   Date: Saturday 28th, January 2023
   Venue: Peace Hotel
+
   [Register here](https://docs.google.com/forms/d/1k7xP-i4WOSFwmkH9WRC2gUtBTbnIj65n5H32-mqMNTM/viewform?edit_requested=true)
 
 - **KWASU TechFest 2023**
