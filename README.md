@@ -7,11 +7,20 @@
 
 # Ilorin
 
+- **Practiced Curiosity: Building Collaboration Between Development and Design**
+
+  Date: Saturday 4th, February 2023
+
+  Venue: De Peace Hotel & Suites, Tanke Rd, 240102, Ilorin.
+
+  [Register here](bit.ly/ACECollaboration)
+
 - **Polygon Ilorin &mdash; Introduction to Web3**
 
   Introduction to web3 and the official launch of the Polygon Guild Ilorin
 
   Date: Saturday 28th, January 2023
+
   Venue: Peace Hotel
 
   [Register here](https://docs.google.com/forms/d/1k7xP-i4WOSFwmkH9WRC2gUtBTbnIj65n5H32-mqMNTM/viewform?edit_requested=true)
