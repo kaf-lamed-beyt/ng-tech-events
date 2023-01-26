@@ -25,7 +25,7 @@ cd ng-tech-events
 - Set the remote upstream of your forked repository to the base repository (i.e. the original repository)
 
 ```bash
-    git remote add upstream https://github.com/kaf-lamed-beyt/next-status-modal.git
+    git remote add upstream https://github.com/kaf-lamed-beyt/ng-tech-event.git
 ```
 
 - Create a branch and start working on your feature.
