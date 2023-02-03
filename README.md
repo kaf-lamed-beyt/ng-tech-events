@@ -37,7 +37,8 @@
 
   An annual open source gathering under Opensource Community Africa
 
-  Date & Venue: TBA (To be announced)
+  Date: Thursday 22nd June 2023 - Saturday 24th June 2023 
+  Venue: Lagos, Nigeria
 
 - **unStack Africa**
 
