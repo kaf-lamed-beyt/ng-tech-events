@@ -33,11 +33,34 @@
 
 # Lagos
 
+- **Nigeria Cybersecurity Summit**
+
+  The Nigeria Cybersecurity Summit 2023, will be a gathering of CISOs from leading enterprises, Cybersecurity experts and elite ethical hackers from across the West African region. 
+  
+  We aim to enable the region to better its defenses and strategies against the sea of cyber attacks. With billions of dollars being lost to cybercrime annually, Cybersecurity - is the need of the hour!
+
+  Date: 16th - 17th, March 2023.
+
+  Venue: Lagos, Nigeria.
+
+  [Register here](https://nigeriacybersecuritysummit.com/contact.php)
+
+- **Tech Unite Africa** 
+
+  Tech Unite Africa is a convergence of tech companies and tech enthusiasts across the world.
+
+  Date: Wednesday 29th March 2023 - Thursday 30th March 2023
+
+  Venue: Muson Convention Center, Victoria Island, Lagos.
+
+  [Register Here](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAZBXnmRUMVQ4UDJQSlE5NlNZTUhMRUdLTTMyWllPVi4u&embed=true)
+
 - **OSCAFEST &mdash; Opensource Festival &mdash; 2023**
 
   An annual open source gathering under Opensource Community Africa
 
   Date: Thursday 22nd June 2023 - Saturday 24th June 2023 
+  
   Venue: Lagos, Nigeria
 
 - **unStack Africa**
