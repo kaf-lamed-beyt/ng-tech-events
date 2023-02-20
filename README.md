@@ -31,12 +31,26 @@
 
   Date & Venue: TBA (To be announced).
 
+- **Flutter Forward Extended Ilorin**
+
+  Flutter Forward Extended Ilorin event happening in the City of Ilorin, where we host developers, designers, and other community members, shared passion for flutter features and products, and networking with like minds.
+
+  And best of all, attendance is free!
+
+  [More Info](https://gdg.community.dev/events/details/google-gdg-ilorin-presents-flutter-forward-extended-ilorin/#0)
+
+  Date: Saturday, Mar 18 2023
+
+  Time: 10:00 AM - 3:00 PM (WAT)
+
+  Venue: MALHUB - 1 Ilofa Rd, GRA, Ilorin, Kwara, 240101 - [View Map](https://www.google.com/maps/dir//1%20Ilofa%20Rd%2C%20GRA%2C%20Ilorin%2C%20Kwara)
+
 # Lagos
 
 - **Nigeria Cybersecurity Summit**
 
-  The Nigeria Cybersecurity Summit 2023, will be a gathering of CISOs from leading enterprises, Cybersecurity experts and elite ethical hackers from across the West African region. 
-  
+  The Nigeria Cybersecurity Summit 2023, will be a gathering of CISOs from leading enterprises, Cybersecurity experts and elite ethical hackers from across the West African region.
+
   We aim to enable the region to better its defenses and strategies against the sea of cyber attacks. With billions of dollars being lost to cybercrime annually, Cybersecurity - is the need of the hour!
 
   Date: 16th - 17th, March 2023.
@@ -45,7 +59,7 @@
 
   [Register here](https://nigeriacybersecuritysummit.com/contact.php)
 
-- **Tech Unite Africa** 
+- **Tech Unite Africa**
 
   Tech Unite Africa is a convergence of tech companies and tech enthusiasts across the world.
 
@@ -59,8 +73,8 @@
 
   An annual open source gathering under Opensource Community Africa
 
-  Date: Thursday 22nd June 2023 - Saturday 24th June 2023 
-  
+  Date: Thursday 22nd June 2023 - Saturday 24th June 2023
+
   Venue: Lagos, Nigeria
 
 - **unStack Africa**
