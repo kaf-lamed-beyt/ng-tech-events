@@ -117,6 +117,7 @@
   Date & Venue: TBA (To be announced)
 
 - **Techies MeetUp by Microsoft Africa Development Center West Africa Events**
+
   Are you ready to take your tech game to the next level? Then you don't want to miss the "Techies Meetup" - an exclusive event that will bring together the brightest minds in the tech industry to explore the cutting-edge technologies developed by Microsoft.
 
   Visit this link for Microsoft Offers https://aka.ms/TechiesMeetupOffer
