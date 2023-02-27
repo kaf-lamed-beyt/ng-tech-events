@@ -1,9 +1,36 @@
 <h1 align="center">#ng-tech-events 💡</h1>
 
 <p align="center">
-   <a href="#abuja">Abuja</a> &#183; <a href="#ilorin">Ilorin</a> &#183; <a href="#lagos">Lagos</a> &#183; <a href="#portharcourt">Port Harcourt</a>
+  <a href="#online">Online</a> &#183;
+  <a href="#abuja">Abuja</a> &#183; 
+  <a href="#ilorin">Ilorin</a> &#183; 
+  <a href="#lagos">Lagos</a> &#183; 
+  <a href="#portharcourt">Port Harcourt</a> 
 </p>
 <p align="center">A pool of upcoming and perhaps old tech events happening 9ja's tech ecosystem.</p>
+
+# Online
+
+- **Microservices March 2023: Start Delivering Microservices (Unit 1)**
+
+  ## Details
+
+  [Register online](https://www.nginx.com/c/microservices-march-2023/?utm_medium=virtualevent&utm_source=meetup&utm_campaign=ww-nx_ssap_g&utm_content=ev-) to access Microservices March.
+
+  Microservices March 2023 is a free educational program that addresses some of the key fundamentals of delivering microservices. The entire curriculum is eight hours of activities spread out over four weeks. Do it all or pick just the parts that interest you.
+
+  ### Unit 1: Apply the Twelve-Factor App to Microservices Architectures
+
+  Join this session to learn:
+
+  - Which of the Twelve Factors need extra attention in microservices.
+  - How the confluence of team organization and microservices affects your decision making.
+
+  Date: Wednesday, March 8, 2023
+
+  Time: 5:00 PM - 6:00 PM
+
+  Venue: Online Event
 
 # Ilorin
 
@@ -92,7 +119,6 @@
   Date & Venue: TBA (To be announced)
 
 - **Techies MeetUp by Microsoft Africa Development Center West Africa Events**
-
   Are you ready to take your tech game to the next level? Then you don't want to miss the "Techies Meetup" - an exclusive event that will bring together the brightest minds in the tech industry to explore the cutting-edge technologies developed by Microsoft.
 
   Visit this link for Microsoft Offers https://aka.ms/TechiesMeetupOffer
@@ -103,48 +129,10 @@
 
   Whether you're a developer, a data scientist, a data analyst, a product manager, or simply a tech enthusiast, this event is the perfect platform for you to network and learn from fellow techies who share your passion. You'll have the chance to connect with like-minded individuals and experts in the field, exchanging ideas, tips, and insights that could potentially transform your career.
 
-  At the "Techies Meetup," you can expect to participate in practical demos of Microsoft's cutting-edge technologies, giving you a chance to see how they work in real-time. You'll learn about the latest advancements in artificial intelligence, cloud computing, machine learning, and much more.
-
-  This event promises to be an exciting, informative, and interactive experience that will leave you feeling inspired and motivated to take your tech skills to the next level. So what are you waiting for? Join us at the "Techies Meetup" and become a part of the next generation of tech innovators!
-
   [Register Online](https://learn.microsoft.com/en-gb/training/challenges?id=f9763b2d-96f5-470e-a2a3-c6b16e163cbb&WT.mc_id=academic-89399-japhletnwamu)
 
-  Date: Wednesday, March 15, 2023 at 11:00 AM to Wednesday, March 15, 2023 at 1:00 PM WAST
+  Date: Wednesday, March 15, 2023
+
+  Time: 11:00 AM - 1:00 PM
 
   Venue: Lagos, Nigeria
-
-- **(Unit 1) Microservices March 2023: Start Delivering Microservices**
-
-  ## Details
-  
-  [Register online](https://www.nginx.com/c/microservices-march-2023/?utm_medium=virtualevent&utm_source=meetup&utm_campaign=ww-nx_ssap_g&utm_content=ev-) to access Microservices March.
-
-  Microservices March 2023 is a free educational program that addresses some of the key fundamentals of delivering microservices. The entire curriculum is eight hours of activities spread out over four weeks. Do it all or pick just the parts that interest you.
-
-  This program is 101-focused. You’ll benefit most if you’re transitioning into a company already using microservices, are currently deciding on an architecture, or are about to start your own conversion to microservices.
-
-  - Unit 1: Apply the Twelve-Factor App to Microservices Architectures
-  - Unit 2: Microservices Secrets Management 101
-  - Unit 3: Accelerate Microservices Deployments with Automation
-  - Unit 4: Manage Microservices Chaos and Complexity with Observability
-
-  ## Unit 1: Apply the Twelve-Factor App to Microservices Architectures
-
-  The first publication of the Twelve-Factor App manifesto was in 2011, now over ten years ago. Since then, many of the practices outlined in that document have become so commonplace that it’s difficult to imagine doing things any other way. 
-  
-  While most of the practices are just as effortless to apply in the context of microservices, others require special consideration both in their technical implementation and their socialization among teams. In this session we highlight some of the areas that may have hidden surprises and help you avoid that pain in your transition to microservices.
-
-  Join this session to learn:
-
-  - Which of the Twelve Factors need extra attention in microservices
-  - How the confluence of team organization and microservices affects your decision making
-
-  ## Hands-on Lab - 1 hour
-
-  You’ll learn about the different types of configuration and informational data, and how to apply them to a service.
-
-  [Register Online](https://www.nginx.com/c/microservices-march-2023/?utm_medium=virtualevent&utm_source=meetup&utm_campaign=ww-nx_ssap_g&utm_content=ev-)
-
-  Date: Wednesday, March 8, 2023 at 5:00 PM to Wednesday, March 8, 2023 at 6:00 PM WAST
-
-  Venue: Online Event
