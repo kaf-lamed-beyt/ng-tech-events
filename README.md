@@ -13,18 +13,16 @@
 
 - **Microservices March 2023: Start Delivering Microservices (Unit 1)**
 
-  ## Details
-
-  [Register online](https://www.nginx.com/c/microservices-march-2023/?utm_medium=virtualevent&utm_source=meetup&utm_campaign=ww-nx_ssap_g&utm_content=ev-) to access Microservices March.
-
   Microservices March 2023 is a free educational program that addresses some of the key fundamentals of delivering microservices. The entire curriculum is eight hours of activities spread out over four weeks. Do it all or pick just the parts that interest you.
 
-  ### Unit 1: Apply the Twelve-Factor App to Microservices Architectures
+  Unit 1: Apply the Twelve-Factor App to Microservices Architectures
 
   Join this session to learn:
 
   - Which of the Twelve Factors need extra attention in microservices.
   - How the confluence of team organization and microservices affects your decision making.
+
+  [Register online](https://www.nginx.com/c/microservices-march-2023/?utm_medium=virtualevent&utm_source=meetup&utm_campaign=ww-nx_ssap_g&utm_content=ev-) to access Microservices March.
 
   Date: Wednesday, March 8, 2023
 
