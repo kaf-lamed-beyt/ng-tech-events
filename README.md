@@ -1,9 +1,34 @@
 <h1 align="center">#ng-tech-events 💡</h1>
 
 <p align="center">
-   <a href="#abuja">Abuja</a> &#183; <a href="#ilorin">Ilorin</a> &#183; <a href="#lagos">Lagos</a> &#183; <a href="#portharcourt">Port Harcourt</a>
+  <a href="#online">Online</a> &#183;
+  <a href="#abuja">Abuja</a> &#183; 
+  <a href="#ilorin">Ilorin</a> &#183; 
+  <a href="#lagos">Lagos</a> &#183; 
+  <a href="#portharcourt">Port Harcourt</a> 
 </p>
 <p align="center">A pool of upcoming and perhaps old tech events happening 9ja's tech ecosystem.</p>
+
+# Online
+
+- **Microservices March 2023: Start Delivering Microservices (Unit 1)**
+
+  Microservices March 2023 is a free educational program that addresses some of the key fundamentals of delivering microservices. The entire curriculum is eight hours of activities spread out over four weeks. Do it all or pick just the parts that interest you.
+
+  Unit 1: Apply the Twelve-Factor App to Microservices Architectures
+
+  Join this session to learn:
+
+  - Which of the Twelve Factors need extra attention in microservices.
+  - How the confluence of team organization and microservices affects your decision making.
+
+  [Register online](https://www.nginx.com/c/microservices-march-2023/?utm_medium=virtualevent&utm_source=meetup&utm_campaign=ww-nx_ssap_g&utm_content=ev-) to access Microservices March.
+
+  Date: Wednesday, March 8, 2023
+
+  Time: 5:00 PM - 6:00 PM
+
+  Venue: Online Event
 
 # Ilorin
 
@@ -90,3 +115,23 @@
   DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google's developer tools.
 
   Date & Venue: TBA (To be announced)
+
+- **Techies MeetUp by Microsoft Africa Development Center West Africa Events**
+
+  Are you ready to take your tech game to the next level? Then you don't want to miss the "Techies Meetup" - an exclusive event that will bring together the brightest minds in the tech industry to explore the cutting-edge technologies developed by Microsoft.
+
+  Visit this link for Microsoft Offers https://aka.ms/TechiesMeetupOffer
+
+  This event would be streamed live on YouTube with physical attendees invited to the Microsoft facility in Lagos, Nigeria. To be eligible to attend the physical event, you must complete the learning challenge here https://aka.ms/TechiesMeetupChallenge.
+
+  All **60 persons** randomly selected will attend the physical event and receive an email on **March 3rd, 2023**. All selected attendees are required to accept their invitations by the end of day on **March 6th, 2023**.
+
+  Whether you're a developer, a data scientist, a data analyst, a product manager, or simply a tech enthusiast, this event is the perfect platform for you to network and learn from fellow techies who share your passion. You'll have the chance to connect with like-minded individuals and experts in the field, exchanging ideas, tips, and insights that could potentially transform your career.
+
+  [Register Online](https://learn.microsoft.com/en-gb/training/challenges?id=f9763b2d-96f5-470e-a2a3-c6b16e163cbb&WT.mc_id=academic-89399-japhletnwamu)
+
+  Date: Wednesday, March 15, 2023
+
+  Time: 11:00 AM - 1:00 PM
+
+  Venue: Lagos, Nigeria
