@@ -137,6 +137,7 @@
   Venue: Lagos, Nigeria
 
 - **International Women's Day Lagos**
+
   International Women's Day is celebrated annually to recognize the social, economic, cultural, and political achievements of women worldwide. The day also serves as a call to action to accelerate gender equality and celebrate the accomplishments of women.
 
   The theme for International Women's Day 2023 is "Dare to be." This theme encourages women to be fearless, bold, and brave in pursuing their dreams and aspirations, breaking down barriers, and challenging stereotypes. It is a call to action to empower women to take charge of their lives, make their voices heard, and inspire others to do the same. "Dare to be" highlights the need to create a world where all women can thrive, free from discrimination and violence, and where their achievements are recognized and celebrated.
