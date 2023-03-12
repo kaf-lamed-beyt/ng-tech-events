@@ -30,6 +30,20 @@
 
   Venue: Online Event
 
+- **Google Developer Student Clubs Sub-Saharan Africa Students Summit**
+  
+  Connecting students for networking, resources, and learning from industry expert. 
+  
+  We also have learning resources for you in Android, Cloud and Machine Learning which you can learn at your pace, you can access this learning path [Here](https://rsvp.withgoogle.com/events/ssa-student-summit/learning-resources)
+  
+  [Register online](http://cutt.ly/ssa-student-summit)
+  
+  Date: March 17, 2023 at 3:00 PM - March 17, 2023 at 7:00 PM GMT+1
+  
+  Time: 3:00 PM - 7:00 PM (GMT+1)
+  
+  Venue: Youtube
+
 # Ilorin
 
 - **Practiced Curiosity: Building Collaboration Between Development and Design**
