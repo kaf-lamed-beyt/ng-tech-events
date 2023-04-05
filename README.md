@@ -165,3 +165,17 @@
   Venue: Lagos, Nigeria
 
   [Register Here](https://gdg.community.dev/events/details/google-gdg-lagos-presents-international-womens-day-lagos/)
+
+- **The GitHub Octernship Event**
+
+  The GitHub Octernship Event aims to introduce students to the benefits of the GitHub Octernship program. This event is hosted by GitHub Campus Experts and will be held on Saturday, 8th of April 2023, at the Rahman Bello Hall in the University of Lagos. 
+
+  The GitHub Octernship program will provide student developers with real-world experience in paid projects that will launch their careers. Participants will have the opportunity to work with companies across the globe, receive mentorship from industry experts, improve coding skills, connect with potential employers, and most importantly get paid.
+
+  Date: Saturday, 8th of April 2023
+
+  Time: 10:00 AM
+
+  Venue: Rahman Bello Hall, University of Lagos, Lagos, Nigeria
+
+  [Register Here](https://bit.ly/register-octernship/)
