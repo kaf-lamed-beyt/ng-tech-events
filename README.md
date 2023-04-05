@@ -30,6 +30,20 @@
 
   Venue: Online Event
 
+- **Google Developer Student Clubs Sub-Saharan Africa Students Summit**
+  
+  Connecting students for networking, resources, and learning from industry expert. 
+  
+  We also have learning resources for you in Android, Cloud and Machine Learning which you can learn at your pace, you can access this learning path [Here](https://rsvp.withgoogle.com/events/ssa-student-summit/learning-resources)
+  
+  [Register online](http://cutt.ly/ssa-student-summit)
+  
+  Date: March 17, 2023 at 3:00 PM - March 17, 2023 at 7:00 PM GMT+1
+  
+  Time: 3:00 PM - 7:00 PM (GMT+1)
+  
+  Venue: Youtube
+
 # Ilorin
 
 - **Practiced Curiosity: Building Collaboration Between Development and Design**
@@ -135,3 +149,19 @@
   Time: 11:00 AM - 1:00 PM
 
   Venue: Lagos, Nigeria
+
+- **International Women's Day Lagos**
+
+  International Women's Day is celebrated annually to recognize the social, economic, cultural, and political achievements of women worldwide. The day also serves as a call to action to accelerate gender equality and celebrate the accomplishments of women.
+
+  The theme for International Women's Day 2023 is "Dare to be." This theme encourages women to be fearless, bold, and brave in pursuing their dreams and aspirations, breaking down barriers, and challenging stereotypes. It is a call to action to empower women to take charge of their lives, make their voices heard, and inspire others to do the same. "Dare to be" highlights the need to create a world where all women can thrive, free from discrimination and violence, and where their achievements are recognized and celebrated.
+
+  Organizers: GDG Lagos
+
+  Date: Saturday, April 29, 2023
+
+  Time: 9:00 AM (WAT)
+
+  Venue: Lagos, Nigeria
+
+  [Register Here](https://gdg.community.dev/events/details/google-gdg-lagos-presents-international-womens-day-lagos/)
