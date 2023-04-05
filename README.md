@@ -178,4 +178,4 @@
 
   Venue: Rahman Bello Hall, University of Lagos, Lagos, Nigeria
 
-  [Register Here](https://bit.ly/register-octernship/)
+  [Register Here](https://bit.ly/register-octernship)
