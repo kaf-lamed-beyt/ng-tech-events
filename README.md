@@ -124,11 +124,27 @@
 
 - **OSCAFEST &mdash; Opensource Festival &mdash; 2023**
 
-  An annual open source gathering under Opensource Community Africa
+  An annual open source gathering under Opensource Community Africa.
+  
+  The Open Source Community Africa Festival (OSCAFEST) is a prestigious yearly conference that garners a significant turnout of students, developers, designers, and corporate entities. It encompasses an array of talks, workshops, and initiatives aimed at promoting the growth of open source culture, contribution, development, community, etc., across the continent.
 
-  Date: Thursday 22nd June 2023 - Saturday 24th June 2023
+  This year, the festival is being organized as a hybrid event, incorporating opportunities for networking, discussions, and brainstorming on both existing and emerging technologies and open source.
+  
+  Interested in speaking? [Register here](https://www.papercall.io/oscafest23)
+  
+  Details:
+  
+  Submission opens: Thursday, 30th March 2023
+  
+  Submission deadline: Monday, 24th April 2023
+  
+  Early bird tickets are available for $15. [Get them here](https://www.eventbrite.com/e/open-source-festival-2023-tickets-574820402297)
 
-  Venue: Lagos, Nigeria
+  Date: Thursday 15th June 2023 - Saturday 17th June 2023
+  
+  Time: 8:30am - 6:30pm WAT
+
+  Venue: Landmark Beach 4 Water Corporation Drive Lagos, LA 106104
 
 - **unStack Africa**
 
