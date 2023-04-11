@@ -130,16 +130,14 @@
 
   This year, the festival is being organized as a hybrid event, incorporating opportunities for networking, discussions, and brainstorming on both existing and emerging technologies and open source.
   
+  Early bird tickets are available for $15. [Get them here](https://www.eventbrite.com/e/open-source-festival-2023-tickets-574820402297)
+  
   Interested in speaking? [Register here](https://www.papercall.io/oscafest23)
   
-  Details:
+  Speaking details:
+  - Submission opens: Thursday, 30th March 2023
+  - Submission deadline: Monday, 24th April 2023
   
-  Submission opens: Thursday, 30th March 2023
-  
-  Submission deadline: Monday, 24th April 2023
-  
-  Early bird tickets are available for $15. [Get them here](https://www.eventbrite.com/e/open-source-festival-2023-tickets-574820402297)
-
   Date: Thursday 15th June 2023 - Saturday 17th June 2023
   
   Time: 8:30am - 6:30pm WAT
