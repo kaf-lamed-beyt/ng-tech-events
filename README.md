@@ -193,3 +193,27 @@
   Venue: Rahman Bello Hall, University of Lagos, Lagos, Nigeria
 
   [Register Here](https://bit.ly/register-octernship)
+  
+  
+- **Nigeria meets Berlin: Insider Tips and Strategies for Getting a High-Paying Dev Job**
+
+  Nithub, University of Lagos in Partnership with Imagine Foundation offers a unique opportunity to learn from two expert speakers in the field of technology: Cornelius Frey, a Tech startup CEO, and Emma Felsenstein, the head of operations from a European NGO offering career training to DevOps.
+
+  The event will cover a wide range of topics including the latest trends in technology, best practices in DevOps, and  strategies for building a successful career in the field. You will have the opportunity to ask questions, participate in group  discussions, and network with like-minded professionals.
+
+  Join us and the experts from Imagine Foundation to learn how you can land your dream dev jobs in Europe. They have successfully placed over 400 global talents in top companies in Europe, and now they're sharing their expertise with you.
+  
+  Feel free to share with people that are interested! It's for people in both Unilag (penultimate and final year students especially) and people out that aren't UNILAG students (workers and all). Send them the link to register. It's a limited event, so register on time.
+
+  Registration Link: https://tinyurl.com/nithub-imagine
+
+  Website Link: https://nithub.unilag.edu.ng/help-developers-event/
+
+  LinkedIn Post: https://www.linkedin.com/feed/update/urn:li:activity:7051200873007300609
+
+  Date: Saturday, 15th of April 2023
+
+  Time: 12:00 PM
+
+  Venue: Nithub, 6, Commercial Road, University of Lagos, Lagos, Nigeria
+  
