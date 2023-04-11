@@ -31,18 +31,32 @@
   Venue: Online Event
 
 - **Google Developer Student Clubs Sub-Saharan Africa Students Summit**
-  
-  Connecting students for networking, resources, and learning from industry expert. 
-  
+
+  Connecting students for networking, resources, and learning from industry expert.
+
   We also have learning resources for you in Android, Cloud and Machine Learning which you can learn at your pace, you can access this learning path [Here](https://rsvp.withgoogle.com/events/ssa-student-summit/learning-resources)
-  
+
   [Register online](http://cutt.ly/ssa-student-summit)
-  
+
   Date: March 17, 2023 at 3:00 PM - March 17, 2023 at 7:00 PM GMT+1
-  
+
   Time: 3:00 PM - 7:00 PM (GMT+1)
-  
+
   Venue: Youtube
+
+- **Google Developer Student Clubs - Rivers State University of Science & Technology**
+
+  The role of communication in software development
+
+  About this Event: Effective communication is vital in software engineering because it helps team members work together more efficiently, reduces misunderstandings, and ensures that projects are delivered on time and within budget.
+
+  [Register online](https://gdsc.community.dev/events/details/developer-student-clubs-rivers-state-university-of-science-technology-presents-the-role-of-communication-in-software-development/)
+
+  Date: Wed, Apr 12 2023
+
+  Time: 7:00 PM (WAT)
+
+  Venue: Virtual
 
 # Ilorin
 
@@ -168,7 +182,7 @@
 
 - **The GitHub Octernship Event**
 
-  The GitHub Octernship Event aims to introduce students to the benefits of the GitHub Octernship program. This event is hosted by GitHub Campus Experts and will be held on Saturday, 8th of April 2023, at the Rahman Bello Hall in the University of Lagos. 
+  The GitHub Octernship Event aims to introduce students to the benefits of the GitHub Octernship program. This event is hosted by GitHub Campus Experts and will be held on Saturday, 8th of April 2023, at the Rahman Bello Hall in the University of Lagos.
 
   The GitHub Octernship program will provide student developers with real-world experience in paid projects that will launch their careers. Participants will have the opportunity to work with companies across the globe, receive mentorship from industry experts, improve coding skills, connect with potential employers, and most importantly get paid.
 
