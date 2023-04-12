@@ -58,6 +58,20 @@
 
   Venue: Virtual
 
+- **MLSA: Making your first Open source contribution with GitHub**
+
+  Join us on Saturday, April 15, 2023; as we walk you through making your first open source contribution.
+
+  [Register online](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b9KJ4K6kgvJCmLOjg1qhvNlUREMwM0RJWDZGOTAxMlBHTDk2NjhNRkNaWC4u)
+  
+  [Microsoft Teams Meeting Link](bit.ly/contribute-to-open-source)
+
+  Date: Saturday, 15th of April 2023
+
+  Time: 3:00 PM (WAT)
+
+  Venue: Virtual
+
 # Ilorin
 
 - **Practiced Curiosity: Building Collaboration Between Development and Design**
