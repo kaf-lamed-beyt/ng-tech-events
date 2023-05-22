@@ -74,6 +74,44 @@
 
 # Ilorin
 
+- **GDSC: ICT Week 2023**
+  
+  We are pleased to announce that registration for the upcoming ICT Week is now open! This event is organized by GDSC Kwara State Polytechnic and NACOSS Kwara State Polytechnic in collaboration with other organizations, and it promises to be exciting.
+
+  This year's event will feature a hackathon where participants can develop new and innovative solutions for student notification platforms. We aim to revolutionize student engagement by building next-generation notification platforms that are more personalized, engaging, and effective.
+
+  The event will take place on the 24th-26th of May. We encourage all members of the community, including students, professionals, and enthusiasts, to register for this event and be a part of this exciting initiative.
+
+  Registration is open to all, and we welcome everyone interested in technology and innovation. Please stay tuned for further updates on the event, including venue announcements and speakers.
+
+  Thank you, and we look forward to seeing you at the ICT Week.
+  
+  Date: May 24 - 26 2023
+  
+  Time: 9:00 AM (WAT)
+
+  Venue: Ali Yusuf Conference Hall, Beside IBAS Complex, Kwara State Polytechnic, Ilorin, 240001
+  
+  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-kwara-state-polytechnic-presents-ict-week-2023/)
+
+
+- **GDSC CareerFest**
+
+   Careerfest is an exciting and dynamic event that offers something for everyone interested in the tech industry, from job seekers to seasoned professionals. It is a valuable platform for building connections, exploring career paths, and staying ahead of the curve in one of the most rapidly evolving industries in the world.
+   
+   Careerfest, the event also features keynote speakers, panel discussions, and workshops on various topics related to the tech industry. These sessions cover a wide range of topics, including the latest tech trends, diversity and inclusion in the workplace, career development, and the future of the industry. 
+   
+   GDSC Careerfest is an excellent opportunity for students/job seekers to gain exposure to a wide range of tech companies and explore various job opportunities in the field. It is also a great networking opportunity for professionals in the industry to connect with their peers, share ideas, and stay up-to-date on the latest developments in the tech world.
+
+  Date: Saturday, Jun 3 2023
+  
+  Time: 9:00 AM - 3:00 PM (WAT)
+  
+  Venue: University of Ilorin Main Auditorium, University Road, Ilorin, 240102
+ 
+  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-university-of-ilorin-presents-careerfest/)
+ 
+
 - **Practiced Curiosity: Building Collaboration Between Development and Design**
 
   Date: Saturday 4th, February 2023
@@ -113,6 +151,19 @@
   Venue: MALHUB - 1 Ilofa Rd, GRA, Ilorin, Kwara, 240101 - [View Map](https://www.google.com/maps/dir//1%20Ilofa%20Rd%2C%20GRA%2C%20Ilorin%2C%20Kwara)
 
 # Lagos
+
+- **GDSC Unilag Google IO Extended**
+
+  The purpose of the event is to Discuss Google technologies and how to utilize them effectively being a student or developer.
+  
+  Date: Sat, May 27, 2023
+  
+  Time: 11:00 AM - 2:30 PM (WAT)
+  
+  Venue: NITDA IT HUB - 6 Commercial Road Lagos, 101245
+  
+  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-university-of-lagos-presents-gdsc-unilag-google-io-extended/)
+  
 
 - **Nigeria Cybersecurity Summit**
 
