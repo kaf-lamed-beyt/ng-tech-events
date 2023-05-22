@@ -74,6 +74,27 @@
 
 # Ilorin
 
+- **GDSC: ICT Week 2023**
+  
+  We are pleased to announce that registration for the upcoming ICT Week is now open! This event is organized by GDSC Kwara State Polytechnic and NACOSS Kwara State Polytechnic in collaboration with other organizations, and it promises to be exciting.
+
+  This year's event will feature a hackathon where participants can develop new and innovative solutions for student notification platforms. We aim to revolutionize student engagement by building next-generation notification platforms that are more personalized, engaging, and effective.
+
+  The event will take place on the 24th-26th of May. We encourage all members of the community, including students, professionals, and enthusiasts, to register for this event and be a part of this exciting initiative.
+
+  Registration is open to all, and we welcome everyone interested in technology and innovation. Please stay tuned for further updates on the event, including venue announcements and speakers.
+
+  Thank you, and we look forward to seeing you at the ICT Week.
+  
+  Date: May 24 - 26 2023
+  
+  Time: 9:00 AM (WAT)
+
+  Venue: Ali Yusuf Conference Hall, Beside IBAS Complex, Kwara State Polytechnic, Ilorin, 240001
+  
+  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-kwara-state-polytechnic-presents-ict-week-2023/)
+
+
 - **GDSC CareerFest**
 
    Careerfest is an exciting and dynamic event that offers something for everyone interested in the tech industry, from job seekers to seasoned professionals. It is a valuable platform for building connections, exploring career paths, and staying ahead of the curve in one of the most rapidly evolving industries in the world.
