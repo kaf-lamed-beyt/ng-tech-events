@@ -74,6 +74,23 @@
 
 # Ilorin
 
+- **GDSC CareerFest**
+
+   Careerfest is an exciting and dynamic event that offers something for everyone interested in the tech industry, from job seekers to seasoned professionals. It is a valuable platform for building connections, exploring career paths, and staying ahead of the curve in one of the most rapidly evolving industries in the world.
+   
+   Careerfest, the event also features keynote speakers, panel discussions, and workshops on various topics related to the tech industry. These sessions cover a wide range of topics, including the latest tech trends, diversity and inclusion in the workplace, career development, and the future of the industry. 
+   
+   GDSC Careerfest is an excellent opportunity for students/job seekers to gain exposure to a wide range of tech companies and explore various job opportunities in the field. It is also a great networking opportunity for professionals in the industry to connect with their peers, share ideas, and stay up-to-date on the latest developments in the tech world.
+
+  Date: Saturday, Jun 3 2023
+  
+  Time: 9:00 AM - 3:00 PM (WAT)
+  
+  Venue: University of Ilorin Main Auditorium, University Road, Ilorin, 240102
+ 
+  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-university-of-ilorin-presents-careerfest/)
+ 
+
 - **Practiced Curiosity: Building Collaboration Between Development and Design**
 
   Date: Saturday 4th, February 2023
