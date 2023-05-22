@@ -152,6 +152,19 @@
 
 # Lagos
 
+- **GDSC Unilag Google IO Extended**
+
+  The purpose of the event is to Discuss Google technologies and how to utilize them effectively being a student or developer.
+  
+  Date: Sat, May 27, 2023
+  
+  Time: 11:00 AM - 2:30 PM (WAT)
+  
+  Venue: NITDA IT HUB - 6 Commercial Road Lagos, 101245
+  
+  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-university-of-lagos-presents-gdsc-unilag-google-io-extended/)
+  
+
 - **Nigeria Cybersecurity Summit**
 
   The Nigeria Cybersecurity Summit 2023, will be a gathering of CISOs from leading enterprises, Cybersecurity experts and elite ethical hackers from across the West African region.
