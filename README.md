@@ -296,3 +296,17 @@
 
   Venue: Nithub, 6, Commercial Road, University of Lagos, Lagos, Nigeria
   
+
+
+
+- **Wema Hackaholics**
+
+  Join a diverse group of problem-solvers, developers, designers, and creative thinkers at this year's edition of Hackaholics to make a difference. Don’t miss out on this exciting opportunity to collaborate with talented individuals and create innovative solutions to real-world problems! Different locations have different pitch dates
+  
+  You can read more about it [here](https://hackaholics.wemabank.com/)
+
+  [Register Online](https://hackaholics.wemabank.com/register)
+
+  Date: Monday, June 05, 2023
+
+  Venue: Lagos State University, Lagos, Nigeria
