@@ -74,6 +74,18 @@
 
 # Ilorin
 
+- **Google I/O Extended Ilorin**
+  
+  Google I/O Extended is the community led counterpart to Google I/O, our annual Google led conference where the world hears about Google’s latest developer solutions, products, and technology.
+
+  Date: Saturday, Jun 24 2023
+
+  Time: 9:00 AM - 4:00 PM (WAT)
+
+  Venue: MALhub 1 Ilofa Road Ilorin, 240101
+
+  [Register Here](https://gdg.community.dev/events/details/google-gdg-ilorin-presents-google-io-extended-ilorin/)
+
 - **GDSC: ICT Week 2023**
   
   We are pleased to announce that registration for the upcoming ICT Week is now open! This event is organized by GDSC Kwara State Polytechnic and NACOSS Kwara State Polytechnic in collaboration with other organizations, and it promises to be exciting.
