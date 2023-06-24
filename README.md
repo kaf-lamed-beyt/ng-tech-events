@@ -63,7 +63,7 @@
   Join us on Saturday, April 15, 2023; as we walk you through making your first open source contribution.
 
   [Register online](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b9KJ4K6kgvJCmLOjg1qhvNlUREMwM0RJWDZGOTAxMlBHTDk2NjhNRkNaWC4u)
-  
+
   [Microsoft Teams Meeting Link](bit.ly/contribute-to-open-source)
 
   Date: Saturday, 15th of April 2023
@@ -75,7 +75,7 @@
 # Ilorin
 
 - **Google I/O Extended Ilorin**
-  
+
   Google I/O Extended is the community led counterpart to Google I/O, our annual Google led conference where the world hears about Google’s latest developer solutions, products, and technology.
 
   Date: Saturday, Jun 24 2023
@@ -87,7 +87,7 @@
   [Register Here](https://gdg.community.dev/events/details/google-gdg-ilorin-presents-google-io-extended-ilorin/)
 
 - **GDSC: ICT Week 2023**
-  
+
   We are pleased to announce that registration for the upcoming ICT Week is now open! This event is organized by GDSC Kwara State Polytechnic and NACOSS Kwara State Polytechnic in collaboration with other organizations, and it promises to be exciting.
 
   This year's event will feature a hackathon where participants can develop new and innovative solutions for student notification platforms. We aim to revolutionize student engagement by building next-generation notification platforms that are more personalized, engaging, and effective.
@@ -97,32 +97,30 @@
   Registration is open to all, and we welcome everyone interested in technology and innovation. Please stay tuned for further updates on the event, including venue announcements and speakers.
 
   Thank you, and we look forward to seeing you at the ICT Week.
-  
+
   Date: May 24 - 26 2023
-  
+
   Time: 9:00 AM (WAT)
 
   Venue: Ali Yusuf Conference Hall, Beside IBAS Complex, Kwara State Polytechnic, Ilorin, 240001
-  
-  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-kwara-state-polytechnic-presents-ict-week-2023/)
 
+  [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-kwara-state-polytechnic-presents-ict-week-2023/)
 
 - **GDSC CareerFest**
 
-   Careerfest is an exciting and dynamic event that offers something for everyone interested in the tech industry, from job seekers to seasoned professionals. It is a valuable platform for building connections, exploring career paths, and staying ahead of the curve in one of the most rapidly evolving industries in the world.
-   
-   Careerfest, the event also features keynote speakers, panel discussions, and workshops on various topics related to the tech industry. These sessions cover a wide range of topics, including the latest tech trends, diversity and inclusion in the workplace, career development, and the future of the industry. 
-   
-   GDSC Careerfest is an excellent opportunity for students/job seekers to gain exposure to a wide range of tech companies and explore various job opportunities in the field. It is also a great networking opportunity for professionals in the industry to connect with their peers, share ideas, and stay up-to-date on the latest developments in the tech world.
+  Careerfest is an exciting and dynamic event that offers something for everyone interested in the tech industry, from job seekers to seasoned professionals. It is a valuable platform for building connections, exploring career paths, and staying ahead of the curve in one of the most rapidly evolving industries in the world.
+
+  Careerfest, the event also features keynote speakers, panel discussions, and workshops on various topics related to the tech industry. These sessions cover a wide range of topics, including the latest tech trends, diversity and inclusion in the workplace, career development, and the future of the industry.
+
+  GDSC Careerfest is an excellent opportunity for students/job seekers to gain exposure to a wide range of tech companies and explore various job opportunities in the field. It is also a great networking opportunity for professionals in the industry to connect with their peers, share ideas, and stay up-to-date on the latest developments in the tech world.
 
   Date: Saturday, Jun 3 2023
-  
+
   Time: 9:00 AM - 3:00 PM (WAT)
-  
+
   Venue: University of Ilorin Main Auditorium, University Road, Ilorin, 240102
- 
+
   [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-university-of-ilorin-presents-careerfest/)
- 
 
 - **Practiced Curiosity: Building Collaboration Between Development and Design**
 
@@ -167,15 +165,14 @@
 - **GDSC Unilag Google IO Extended**
 
   The purpose of the event is to Discuss Google technologies and how to utilize them effectively being a student or developer.
-  
+
   Date: Sat, May 27, 2023
-  
+
   Time: 11:00 AM - 2:30 PM (WAT)
-  
+
   Venue: NITDA IT HUB - 6 Commercial Road Lagos, 101245
-  
+
   [Register Here](https://gdsc.community.dev/events/details/developer-student-clubs-university-of-lagos-presents-gdsc-unilag-google-io-extended/)
-  
 
 - **Nigeria Cybersecurity Summit**
 
@@ -202,21 +199,15 @@
 - **OSCAFEST &mdash; Opensource Festival &mdash; 2023**
 
   An annual open source gathering under Opensource Community Africa.
-  
+
   The Open Source Community Africa Festival (OSCAFEST) is a prestigious yearly conference that garners a significant turnout of students, developers, designers, and corporate entities. It encompasses an array of talks, workshops, and initiatives aimed at promoting the growth of open source culture, contribution, development, community, etc., across the continent.
 
-  This year, the festival is being organized as a hybrid event, incorporating opportunities for networking, discussions, and brainstorming on both existing and emerging technologies and open source.
-  
   Early bird tickets are available for $15. [Get them here](https://www.eventbrite.com/e/open-source-festival-2023-tickets-574820402297)
-  
+
   Interested in speaking? [Register here](https://www.papercall.io/oscafest23)
-  
-  Speaking details:
-  - Submission opens: Thursday, 30th March 2023
-  - Submission deadline: Monday, 24th April 2023
-  
+
   Date: Thursday 15th June 2023 - Saturday 17th June 2023
-  
+
   Time: 8:30am - 6:30pm WAT
 
   Venue: Landmark Beach 4 Water Corporation Drive Lagos, LA 106104
@@ -284,16 +275,15 @@
   Venue: Rahman Bello Hall, University of Lagos, Lagos, Nigeria
 
   [Register Here](https://bit.ly/register-octernship)
-  
-  
+
 - **Nigeria meets Berlin: Insider Tips and Strategies for Getting a High-Paying Dev Job**
 
   Nithub, University of Lagos in Partnership with Imagine Foundation offers a unique opportunity to learn from two expert speakers in the field of technology: Cornelius Frey, a Tech startup CEO, and Emma Felsenstein, the head of operations from a European NGO offering career training to DevOps.
 
-  The event will cover a wide range of topics including the latest trends in technology, best practices in DevOps, and  strategies for building a successful career in the field. You will have the opportunity to ask questions, participate in group  discussions, and network with like-minded professionals.
+  The event will cover a wide range of topics including the latest trends in technology, best practices in DevOps, and strategies for building a successful career in the field. You will have the opportunity to ask questions, participate in group discussions, and network with like-minded professionals.
 
   Join us and the experts from Imagine Foundation to learn how you can land your dream dev jobs in Europe. They have successfully placed over 400 global talents in top companies in Europe, and now they're sharing their expertise with you.
-  
+
   Feel free to share with people that are interested! It's for people in both Unilag (penultimate and final year students especially) and people out that aren't UNILAG students (workers and all). Send them the link to register. It's a limited event, so register on time.
 
   Registration Link: https://tinyurl.com/nithub-imagine
@@ -307,14 +297,11 @@
   Time: 12:00 PM
 
   Venue: Nithub, 6, Commercial Road, University of Lagos, Lagos, Nigeria
-  
-
-
 
 - **Wema Hackaholics**
 
   Join a diverse group of problem-solvers, developers, designers, and creative thinkers at this year's edition of Hackaholics to make a difference. Don’t miss out on this exciting opportunity to collaborate with talented individuals and create innovative solutions to real-world problems! Different locations have different pitch dates
-  
+
   You can read more about it [here](https://hackaholics.wemabank.com/)
 
   [Register Online](https://hackaholics.wemabank.com/register)
