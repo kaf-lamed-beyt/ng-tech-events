@@ -162,6 +162,31 @@
 
 # Lagos
 
+- **Polygon/guild Lagos &mdash; DevX Global Tour**
+  The Dev X Global Tour is coming to Africa for its next stop - with our Guilds hosting 2 events in the region - the first was in Kampala, and now we're heading to Lagos . 🥳🎉
+
+  ​Through technical workshops and fun breakout sessions, participants will have the opportunity for hands-on learning about the latest Web3 tech.
+
+  Date: Sat, Jul 1.
+
+  Time: 11AM - 4PM
+
+  Venue: Julius Berger Hall Oduduwa Drive Lagos, LA
+
+  [Register here](https://www.eventbrite.com/e/polygon-guild-lagos-africa-tour-tickets-646208716667)
+
+- **IOT WEST AFRICA Conference & Exhibition**
+
+  West Africa’s one of a kind event IoT West Africa www.iotwestafrica.com scheduled from 4th-6th July, 2023 at Landmark Centre, Lagos will bring together key industries from across the region for three days of top-level content and discussion across 4 co-located events covering IoT, Data Centers and Power and Water Nigeria.
+
+  Date: July 4 - Jul 6
+
+  Time: 10AM - 4PM WAT
+
+  Venue: Landmark Centre Water Corporation Drive #Plot 2 & 3 Annex, LA 106104
+
+  [Register here](https://www.eventbrite.com/e/iot-west-africa-tickets-440851066407?aff=erellivmlt)
+
 - **GDSC Unilag Google IO Extended**
 
   The purpose of the event is to Discuss Google technologies and how to utilize them effectively being a student or developer.
