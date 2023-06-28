@@ -7,7 +7,7 @@
   <a href="#lagos">Lagos</a> &#183; 
   <a href="#portharcourt">Port Harcourt</a> 
 </p>
-<p align="center">A pool of upcoming and perhaps old tech events happening 9ja's tech ecosystem.</p> <p align="center">Want to contribute? Read the <a href="CONTRIBUTING.md">guideline</p>
+<p align="center">A pool of upcoming and past tech events in 9ja's tech ecosystem</p> <p align="center">Want to contribute? Read the <a href="CONTRIBUTING.md">guideline</p>
 
 # Online
 
