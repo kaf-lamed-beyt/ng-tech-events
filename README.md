@@ -1,11 +1,12 @@
 <h1 align="center">#ng-tech-events 💡</h1>
 
 <p align="center">
-  <a href="#online">Online</a> &#183;
-  <a href="#abuja">Abuja</a> &#183; 
-  <a href="#ilorin">Ilorin</a> &#183; 
-  <a href="#lagos">Lagos</a> &#183; 
-  <a href="#portharcourt">Port Harcourt</a> 
+  <a href="#Online">Online</a> &#183;
+  <a href="#Abuja">Abuja</a> &#183; 
+  <a href="#Ilorin">Ilorin</a> &#183; 
+  <a href="#Lagos">Lagos</a> &#183; 
+  <a href="#Portharcourt">Port Harcourt</a>
+  <a href="#Ogun">Ogun</a>
 </p>
 <p align="center">A pool of upcoming and perhaps old tech events happening 9ja's tech ecosystem.</p>
 
@@ -80,3 +81,12 @@
 <!-- # Portharcourt -->
 <!-- | Name          | Date   | Time   | Venue   | Register|
 | ------------- | ---------- | ------ | ------- |---------| -->
+<!--# End of Porthartcourt -->
+
+ # Ogun 
+ 
+ | Name          | Date   | Time   | Venue   | Register|
+| ------------- | ---------- | ------ | ------- |---------| 
+|[**computer science s. conference**](bit.ly/cscon3reg)|wed 3rd may 2023|10AM|Oduduwa Hall, OAU|[register here](bit.ly/cscon3reg)|
+|**[Description: ]** A yearly techconference Organized by the department of Computer Science and Engineering OAU Ile-ife
+
