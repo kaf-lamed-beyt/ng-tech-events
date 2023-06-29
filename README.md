@@ -5,7 +5,7 @@
   <a href="#Ilorin">Ilorin</a> &#183; 
   <a href="#Lagos">Lagos</a> &#183; 
   <a href="#Portharcourt">Port Harcourt</a> &#183;
-  <a href="#Ogun">Ogun</a>
+  <a href="#Osun">Ogun</a>
 </p>
 <p align="center">A pool of upcoming and past tech events in 9ja's tech ecosystem</p> <p align="center">Want to contribute? Read the <a href="CONTRIBUTING.md">guideline</p>
 
@@ -80,7 +80,7 @@
 | ------------- | ---------- | ------ | ------- |---------| -->
 <!--# End of Porthartcourt -->
 
- # Ogun 
+ # Osun 
  
  | Name          | Date   | Time   | Venue   | Register|
 | ------------- | ---------- | ------ | ------- |---------| 
