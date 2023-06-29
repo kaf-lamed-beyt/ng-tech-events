@@ -2,6 +2,12 @@
 
 First off, I have to thank you for wanting to contributing to this project. You rock 🤘! Please read the process below.
 
+We recently moved to using tables to represent the data here. This [Pull Request](https://github.com/kaf-lamed-beyt/ng-tech-events/pull/35) by [Samuel Peters](https://github.com/Petsamuel) helped us accomplish that. 
+
+So the experience of contributing to this repository isn't completely arduous for you, downloading this Vscode extension &mdash; [Markdown table prettifier](https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify) &mdash; can help reduce the friction of working with tables in markdwon. 
+
+Feel free to suggest other extensions that you think may be better than the aforementioned one to.
+
 ## Getting Started
 
 Here, you'd find the step-by-step process of contributing to this project, from **(Forking)** to submitting a final pull request. Please do not hesitate to ask questions whenever you feel stuck.
