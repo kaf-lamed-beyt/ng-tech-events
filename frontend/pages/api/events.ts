@@ -18,19 +18,46 @@ export default async function eventsApiRoute(
       const tableRegex = /\|(.+)\|(.+)\|/g;
       const matchedTables = (await readmeContent).match(tableRegex);
 
-      const eventsData = matchedTables.map((event) => {
+      // console.log(
+      //   `these are the tables that got matched: ${[matchedTables].length}`
+      // );
+
+      const eventsData = matchedTables.slice(2).map((event) => {
         const columns = event.split("|").map((column) => column.trim());
 
+        const eventName = columns[1].replace("**", "");
+
+        // const found = columns.find((item) => item === );
+
+        // console.log(found);
+
         return {
-          name: columns[1],
-          date: columns[2],
-          time: columns[3],
-          location: columns[4],
-          link: columns[5],
+          name: eventName.replace("**", ""),
+          description: columns[2].replace("<br/>", "\n"),
+          date: columns[3],
+          time: columns[4],
+          location: columns[5],
+          link: columns[6]
+            .split("](")
+            .splice(1, 1, "''")
+            .toString()
+            .replace(")", ""),
         };
       });
 
-      res.status(200).json(eventsData);
+      const tableBottomBorder = eventsData.find((item) =>
+        item.name.includes("---")
+      );
+
+      const tableHeadings = eventsData.find((item) => item.name === "Name");
+
+      let updatedEvents;
+
+      updatedEvents = eventsData.filter(
+        (item) => item != tableHeadings && tableBottomBorder
+      );
+
+      res.status(200).json(updatedEvents);
     } catch (error) {
       console.error(`Error fetching events data: ${error}`);
       res.status(500).json({ error: "Internal Server Error" });
