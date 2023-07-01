@@ -14,22 +14,12 @@ export default async function eventsApiRoute(
       );
 
       const readmeContent = response.text();
-
       const tableRegex = /\|(.+)\|(.+)\|/g;
       const matchedTables = (await readmeContent).match(tableRegex);
 
-      // console.log(
-      //   `these are the tables that got matched: ${[matchedTables].length}`
-      // );
-
       const eventsData = matchedTables.slice(2).map((event) => {
         const columns = event.split("|").map((column) => column.trim());
-
         const eventName = columns[1].replace("**", "");
-
-        // const found = columns.find((item) => item === );
-
-        // console.log(found);
 
         return {
           name: eventName.replace("**", ""),
@@ -45,16 +35,10 @@ export default async function eventsApiRoute(
         };
       });
 
-      const tableBottomBorder = eventsData.find((item) =>
-        item.name.includes("---")
-      );
-
-      const tableHeadings = eventsData.find((item) => item.name === "Name");
-
       let updatedEvents;
 
       updatedEvents = eventsData.filter(
-        (item) => item != tableHeadings && tableBottomBorder
+        (item) => !item.name.includes("Name") && !item.name.includes("---")
       );
 
       res.status(200).json(updatedEvents);
