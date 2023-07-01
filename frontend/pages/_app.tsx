@@ -3,6 +3,7 @@ import Head from "next/head";
 import React from "react";
 import { Inter } from "next/font/google";
 import { theme } from "@utils/theme";
+import "../style/globals.scss";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,7 +14,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Home page</title>
+        <title>Events</title>
       </Head>
       <main className={inter.className}>
         <ChakraProvider theme={theme}>
