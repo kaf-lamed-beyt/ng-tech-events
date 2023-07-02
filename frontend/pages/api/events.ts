@@ -21,12 +21,23 @@ export default async function eventsApiRoute(
         const columns = event.split("|").map((column) => column.trim());
         const eventName = columns[1].replace("**", "");
 
+        const state = columns[5].includes("Lagos")
+          ? "lagos"
+          : columns[5].includes("Kwara" || "kwara")
+          ? "ilorin"
+          : columns[5].includes("osun" || "Osun")
+          ? "osun"
+          : "";
+
         return {
           name: eventName.replace("**", ""),
           description: columns[2].replace("<br/>", "\n"),
           date: columns[3],
           time: columns[4],
-          location: columns[5],
+          location: {
+            address: columns[5],
+            state,
+          },
           link: columns[6]
             .split("](")
             .splice(1, 1, "''")
