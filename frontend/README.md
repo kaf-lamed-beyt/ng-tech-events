@@ -81,6 +81,12 @@ The stack we're using for this project is
 
 One last thing. If you notice any typo(s) in this README, please feel free to open a PR to correct it.
 
+## state-management?
+
+For now, I think there's just one component that depends on `React.useState`. Every other thing uses the browser URL as a source of truth for their states.
+
+You can learn more on the **"WHY?"** [here](https://meje.dev/blog/keep-state-in-the-url)
+
 ## precommit-ing with husky.
 
 Because we may run into having un-linted code in the future that would result in build errors when we deploy to Netlify. I've added a simple pre-commit check that ensures that the build process passes according to Typescript's standard.
@@ -90,5 +96,3 @@ I know that this may be maddening 😒 as [some people may hate the idea](https:
 Although, there are other approaches, like implementing a CI/CD process with Actions. I haven't really weighed the options, if you have, kindly suggest a way that it can be accomplished, and open a PR when you're done.
 
 ## Let's Go 🚀
-
-> > > > > > > 82db485ff47ae25ff1f4f52ca82ce54acfa6ee9c
