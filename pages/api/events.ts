@@ -1,3 +1,4 @@
+import { categories } from "@containers/data";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function eventsApiRoute(
@@ -13,24 +14,39 @@ export default async function eventsApiRoute(
         }
       );
 
-      const readmeContent = response.text();
+      let states;
+      let state;
+      const readmeContent = await response.text();
       const tableRegex = /\|(.+)\|(.+)\|/g;
+      const anchorTagsRegex = /<a[^>]*>([^<]*)<\/a>/gi;
+
+      // adjust tsc to accomodate the --downlevelIteration flag in tsconfig
+      const matchedLocations = [
+        ...(await readmeContent).matchAll(anchorTagsRegex),
+      ];
       const matchedTables = (await readmeContent).match(tableRegex);
 
-      const eventsData = matchedTables.slice(2).map((event) => {
+      states = matchedLocations.map((state) => state[1].toLocaleLowerCase());
+
+      const eventsData = matchedTables.map((event) => {
         const columns = event.split("|").map((column) => column.trim());
         const eventName = columns[1].replace("**", "");
 
-        const state = columns[5].includes("Lagos")
-          ? "lagos"
-          : columns[5].includes("Kwara" || "kwara")
-          ? "ilorin"
-          : columns[5].includes("osun" || "Osun")
-          ? "osun"
-          : "";
+        state = states.find((name) =>
+          columns[5].toLocaleLowerCase().includes(name)
+        );
+
+        // split and remove whitespace
+        const categories = columns[7]
+          .split(",")
+          .map((item) =>
+            item.trimStart().includes(" ")
+              ? item.replace(" ", "-").toLocaleLowerCase()
+              : item.toLocaleLowerCase().trim()
+          );
 
         return {
-          name: eventName.replace("**", ""),
+          name: eventName.replace("**", "").replace("&mdash;", "—"),
           description: columns[2].replace("<br/>", "\n"),
           date: columns[3],
           time: columns[4],
@@ -38,6 +54,9 @@ export default async function eventsApiRoute(
             address: columns[5],
             state,
           },
+          categories: categories.filter(
+            (item) => item !== "" && item !== "n/a"
+          ),
           link: columns[6]
             .split("](")
             .splice(1, 1, "''")
@@ -52,9 +71,14 @@ export default async function eventsApiRoute(
         (item) => !item.name.includes("Name") && !item.name.includes("---")
       );
 
-      res.status(200).json(updatedEvents);
+      const data = {
+        all_locations: states,
+        events: updatedEvents,
+      };
+
+      res.status(200).json(data);
     } catch (error) {
-      console.error(`Error fetching events data: ${error}`);
+      console.error(`Error fetching events data, ${error}`);
       res.status(500).json({ error: "Internal Server Error" });
     }
   } else {

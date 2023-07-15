@@ -2,30 +2,39 @@
   "name": "ng-tech-events",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "prebuild": "tsc --noEmit --incremental",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  },
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@types/sass": "^1.45.0",
     "centa": "^0.0.2",
+    "dayjs": "^1.11.9",
     "framer-motion": "^10.12.17",
+    "metadatah": "^0.1.2",
     "next": "^13.4.7",
-    "parse-markdown-table": "^0.0.6",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
     "sass": "^1.63.6",
+    "stream-browserify": "^3.0.0",
     "swr": "^2.2.0",
-    "three-data": "^1.0.1",
     "typescript": "^5.1.5"
   },
   "devDependencies": {
     "@types/node": "20.3.2",
-    "@types/react": "18.2.14"
-  },
-  "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "lint": "next lint"
+    "@types/react": "18.2.14",
+    "husky": "^8.0.0",
+    "pinst": "^3.0.0"
   },
   "keywords": [],
   "author": "",
