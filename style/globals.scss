@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --primary: #000000;
+  --secondary: #545454;
+  --deep-charcoal: #141414;
+  --subtle-charcoal: #363739;
+  --bg-deus: #222226;
+  --trois-bg: #1a1c1a;
+  --quatro-bg: #1f1919;
+  --cinq-bg: #1d1b18;
+  --six-bg: #131316;
+  --charcoal-alt: #212121;
+
+  // gradients
+  --inin: linear-gradient(to bottom right, #1fff5e, #ffb978);
+  --inui: linear-gradient(to bottom right, #ff1fc0, #ffc165);
+  --yuyu: linear-gradient(to bottom right, #1f93ff, #d4ff78);
+  --bubu: linear-gradient(to bottom right, #ff1f1f, #ccff78);
+  --nin: linear-gradient(to left, #e511aa, #2a26f1);
+  --hero-gradient: linear-gradient(180deg, #6617ca 0%, rgba(0, 0, 0, 0) 100%);
+
+  // families
+  --bebas: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-color: var(--primary) !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: var(--deep-charcoal);
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.03);
+  }
+}
+
+.external-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.active-category {
+  background: #fff;
+  color: var(--primary);
+  transition: all 0.3s ease-in-out;
+}
+
+// animation classes
+
+.expand {
+  animation: expand 0.5s ease forwards;
+}
+
+.moveIcon {
+  animation: translateIcon 0.3s ease-in-out forwards;
+}
+
+.moveTextOut {
+  animation: moveText 0.3s ease-in-out forwards;
+  transition: all 0.3s ease-in-out;
+}
+
+.time-fade {
+  opacity: 0.1;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: fade-time 61s cubic-bezier(0.075, 0.82, 0.165, 1) forwards infinite;
+}
+
+@keyframes expand {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 340px;
+    border-radius: 20px;
+    background: var(--primary);
+    transform: translateX(10px);
+    border: 1px solid var(--secondary);
+    transition: all 0.5s ease;
+  }
+}
+
+@keyframes translateIcon {
+  to {
+    transform: translateX(-20px);
+    background: none;
+  }
+}
+
+@keyframes moveText {
+  to {
+    transform: translateX(-800px) !important;
+    opacity: 0.4 !important;
+  }
+}
+
+@keyframes fade-time {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
