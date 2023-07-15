@@ -18,13 +18,6 @@ const Home = () => {
     revalidateOnFocus: true,
   });
 
-  if (error) {
-    return (
-      <Text alignItems="center" color="#fff">
-        Error fetching events
-      </Text>
-    );
-  }
   let uniqueCategories = [];
 
   const events = data?.events;
@@ -65,37 +58,44 @@ const Home = () => {
           Events happening {location === "online" || !location ? "" : "in"}
         </Text>
       </Box>
-      <Location />
-      <Categories />
-      {isLoading ? (
-        <EventCardSK count={events} />
+      {error ? (
+        <Text textAlign="center" color="#fff">
+          Error fetching events
+        </Text>
       ) : (
         <>
-          {!location && !category ? (
-            <Events data={events} />
+          <Location />
+          <Categories />
+          {isLoading ? (
+            <EventCardSK count={events} />
           ) : (
             <>
-              {filteredEvents.length === 0 ? (
-                <Text
-                  textAlign="center"
-                  my="1.5em"
-                  fontSize={{ lg: "1.5em", md: "1em", base: "1em" }}
-                  fontWeight="400"
-                  color="#bab1b1"
-                  width={{ base: "100%" }}
-                >
-                  Oops! There are no events{" "}
-                  {!matchCategory ? "under this category" : null} in this
-                  location. Sorry 😩
-                </Text>
+              {!location && !category ? (
+                <Events data={events} />
               ) : (
-                <Events data={filteredEvents} />
+                <>
+                  {filteredEvents.length === 0 ? (
+                    <Text
+                      textAlign="center"
+                      my="1.5em"
+                      fontSize={{ lg: "1.5em", md: "1em", base: "1em" }}
+                      fontWeight="400"
+                      color="#bab1b1"
+                      width={{ base: "100%" }}
+                    >
+                      Oops! There are no events{" "}
+                      {!matchCategory ? "under this category" : null} in this
+                      location. Sorry 😩
+                    </Text>
+                  ) : (
+                    <Events data={filteredEvents} />
+                  )}
+                </>
               )}
             </>
           )}
         </>
       )}
-      {/* <EventCardSK count={events} /> */}
     </>
   );
 };
