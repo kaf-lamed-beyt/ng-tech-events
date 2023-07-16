@@ -1,6 +1,6 @@
 # Contributing
 
-First off, I have to thank you for wanting to contributing to this project. You rock 🤘! Please read the process below.
+First off I have to thank you for wanting to contributing to this project. You rock 🤘! Please read the process below.
 
 We recently moved to using tables to represent the data here. This [Pull Request](https://github.com/kaf-lamed-beyt/ng-tech-events/pull/35) by [Samuel Peters](https://github.com/Petsamuel) helped us accomplish that.
 
