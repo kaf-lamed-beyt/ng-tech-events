@@ -76,6 +76,7 @@
 | Name                                    | Description                                                                                         | Date                       | Time | Venue                   | Register                          | Category                     |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------- | ---- | ----------------------- | --------------------------------- | ---------------------------- |
 | **Computer Science Conference (CSCON)** | A yearly techconference Organized by the department of Computer Science and Engineering OAU Ile-ife | Wednesday, April 3rd, 2023 | 10AM | Oduduwa Hall, OAU, Osun | [Register here](bit.ly/cscon3reg) | Web, Design, Startup, Mobile |
+| **DOCTOR PLUS 5.0** | A HealthTechConference Organized by the department Medical Students' Association OAU Ile-ife (Health + Tech) | Saturday, July 22nd, 2023 | 9AM | Ace Main Hall, ICT Centre, OAU | http://bit.ly/Healthtech2023 | Health, Tech
 
 <!-- End of Osun -->
 
