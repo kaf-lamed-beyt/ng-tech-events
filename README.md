@@ -76,3 +76,5 @@
 | Name                                    | Description                                                                                         | Date                       | Time | Venue                   | Register                          | Category                     |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------- | ---- | ----------------------- | --------------------------------- | ---------------------------- |
 | **Computer Science Conference (CSCON)** | A yearly techconference Organized by the department of Computer Science and Engineering OAU Ile-ife | Wednesday, Apirl 3rd, 2023 | 10AM | Oduduwa Hall, OAU, Osun | [register here](bit.ly/cscon3reg) | Web, Design, Startup, Mobile |
+
+<!-- dhdwyd -->
