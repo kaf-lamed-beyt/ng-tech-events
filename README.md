@@ -75,4 +75,14 @@
 
 | Name                                    | Description                                                                                         | Date                       | Time | Venue                   | Register                          | Category                     |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------- | ---- | ----------------------- | --------------------------------- | ---------------------------- |
-| **Computer Science Conference (CSCON)** | A yearly techconference Organized by the department of Computer Science and Engineering OAU Ile-ife | Wednesday, Apirl 3rd, 2023 | 10AM | Oduduwa Hall, OAU, Osun | [register here](bit.ly/cscon3reg) | Web, Design, Startup, Mobile |
+| **Computer Science Conference (CSCON)** | A yearly techconference Organized by the department of Computer Science and Engineering OAU Ile-ife | Wednesday, April 3rd, 2023 | 10AM | Oduduwa Hall, OAU, Osun | [Register here](bit.ly/cscon3reg) | Web, Design, Startup, Mobile |
+
+<!-- End of Osun -->
+
+# Port-Harcourt
+
+| Name                                    | Description                                                                                         | Date                       | Time | Venue                   | Register                          | Category                     |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------- | ---- | ----------------------- | --------------------------------- | ---------------------------- |
+| **Google IO Extended Port Harcourt 2023** | Google I/O Extended is the community-led counterpart to Google I/O, our annual Google-led conference where the world hears about Google’s latest developer solutions, products, and technology. Google I/O Extended is a series of community-led tech meetups, that brings the knowledge and excitement of Google I/O to developers on a city level, all around the globe from May through August annually. | Saturday, August 12th, 2023 | 9:00 AM | SILICON DELTA. No 5 Chief Pius Uchendu Street, Off NTA Road, Mgbuoba,(Behind timeless supermarket) Port Harcourt, 500102 | [Register here](https://gdg.community.dev/events/details/google-gdg-port-harcourt-presents-google-io-extended-port-harcourt-2023/#0) | General |
+
+
