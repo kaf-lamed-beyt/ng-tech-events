@@ -9,7 +9,8 @@
     "prebuild": "tsc --noEmit --incremental",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "postpack": "pinst --enable",
+    "prepare": "cd .. && husky install frontend/.husky"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
