@@ -1,24 +1,28 @@
 {
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"],
   "exclude": ["node_modules"],
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "skipLibCheck": true,
     "strict": false,
-    "forceConsistentCasingInFileNames": true,
+    "target": "ES2015",
     "noEmit": true,
-    "incremental": true,
-    "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "incremental": true,
+    "skipLibCheck": true,
     "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
-      "@utils/*": ["utils/*"]
+      "@utils/*": ["utils/*"],
+      "@layout/*": ["layout/*"],
+      "@containers/*": ["containers/*"]
     }
   }
 }

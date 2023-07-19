@@ -1,6 +1,8 @@
 import useSWR from "swr";
 import { getEvents } from "@utils/fetcher";
-import { Center } from "centa";
+import { MetaData } from "@components/metadata";
+import Layout from "@layout/index";
+import Home from "@containers/home";
 
 export default function Homepage() {
   const { data, error, isLoading } = useSWR("/api/events", () => getEvents(), {
@@ -9,17 +11,15 @@ export default function Homepage() {
 
   return (
     <>
-      <Center>
-        <h1
-          style={{
-            fontSize: "50px",
-            fontWeight: "800",
-            textAlign: "center",
-          }}
-        >
-          coming soon...
-        </h1>
-      </Center>
+      <MetaData
+        url="9ja-events.tech"
+        pageTitle="Techies Assemble"
+        description="A pool of upcoming and past tech events in 9ja's tech ecosystem"
+        previewImage="/img/preview.png"
+      />
+      <Layout>
+        <Home />
+      </Layout>
     </>
   );
 }

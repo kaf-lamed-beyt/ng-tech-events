@@ -8,7 +8,7 @@ labels: feature-request
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
- 
+
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
 
@@ -30,4 +30,3 @@ List any related issues or pull requests that may be relevant to this feature re
 **Would you like to work on this feature?**
 [ ] Yes, I would like to contribute to implementing this feature.
 [ ] No, I'm suggesting it for others to work on.
-
