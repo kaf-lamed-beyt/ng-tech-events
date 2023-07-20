@@ -5,12 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "next lint",
-    "prebuild": "tsc --noEmit --incremental",
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable",
-    "prepare": "cd .. && husky install frontend/.husky"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.0",
@@ -33,12 +28,10 @@
   },
   "devDependencies": {
     "@types/node": "20.3.2",
-    "@types/react": "18.2.14",
-    "husky": "^8.0.0",
-    "pinst": "^3.0.0"
+    "@types/react": "18.2.14"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "description": ""
+  "description": "A pool of upcoming and perhaps old tech events happening 9ja's tech ecosystem"
 }
