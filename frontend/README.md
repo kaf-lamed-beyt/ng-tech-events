@@ -89,6 +89,8 @@ You can learn more on the **"WHY?"** [here](https://meje.dev/blog/keep-state-in-
 
 ## precommit-ing with husky.
 
+While this feels like a good approach. Contributors kept runing into installation issues with husky because of the nested folder structure. If you know a way to get past this error of the frontend folder not being a `.git` project. Feel free to open a pull request.
+
 Because we may run into having un-linted code in the future that would result in build errors when we deploy to Netlify. I've added a simple pre-commit check that ensures that the build process passes according to Typescript's standard.
 
 I know that this may be maddening 😒 as [some people may hate the idea](https://www.youtube.com/watch?v=RAelLqnnOp0) of adding pre-commit hooks to their projects. But, it gets the job done.
