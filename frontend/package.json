@@ -13,13 +13,13 @@
     "prepare": "cd .. && husky install frontend/.husky"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.7.1",
+    "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@types/sass": "^1.45.0",
     "centa": "^0.0.2",
     "dayjs": "^1.11.9",
-    "framer-motion": "^10.12.17",
+    "framer-motion": "^10.13.0",
     "metadatah": "^0.1.2",
     "next": "^13.4.7",
     "path-browserify": "^1.0.1",

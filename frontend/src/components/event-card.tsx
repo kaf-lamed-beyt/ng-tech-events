@@ -26,7 +26,7 @@ const Events = ({ data }: eventProps) => {
             p="1px"
             borderRadius="8px"
             width={{ lg: "23.2%", md: "48%", base: "100%" }}
-            height={{ lg: "320px", base: "100%", md: "100%" }}
+            height={{ lg: "360px", base: "100%", md: "100%" }}
             my={{ base: ".3em" }}
             mx={{ base: ".1em" }}
           >
@@ -46,14 +46,14 @@ const Events = ({ data }: eventProps) => {
                 height=""
               />
               <Box fontSize="12px" height="fit-content" py=".3em">
-                <Text py=".4em" color="#fff" fontWeight="600">
+                <Text py=".75em" color="#fff" fontWeight="600">
                   {name}
                 </Text>
-                <Text py=".4em" color="#fff">
+                <Text py=".5em" color="#fff">
                   {/* {dayjs(date).format("DD-MM-YYYY")} */}
                   {date}
                 </Text>
-                <Text py=".4em" color="#fff">
+                <Text py=".5em" color="#fff">
                   {address}
                 </Text>
               </Box>

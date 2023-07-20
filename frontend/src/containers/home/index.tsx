@@ -21,6 +21,7 @@ const Home = () => {
   let uniqueCategories = [];
 
   const events = data?.events;
+  console.log(events);
   const locations = data?.all_locations;
   const states = events?.map((event) => event);
 
