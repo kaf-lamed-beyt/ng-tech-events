@@ -1,12 +1,13 @@
-import useSWR from "swr";
-import React from "react";
-import Hero from "@components/hero";
 import { Box, Text, filter } from "@chakra-ui/react";
-import { useRouter } from "next/router";
 import { Categories, Location } from "@components/categories";
 import Events from "@components/event-card";
-import { getEvents } from "@utils/fetcher";
+import Hero from "@components/hero";
 import { EventCardSK } from "@components/skeletons";
+import { getEvents } from "@utils/fetcher";
+import { getUniqueCategories } from "@utils/uniquecategories";
+import { useRouter } from "next/router";
+import React from "react";
+import useSWR from "swr";
 
 const Home = () => {
   const router = useRouter();
@@ -24,13 +25,7 @@ const Home = () => {
   const locations = data?.all_locations;
   const states = events?.map((event) => event);
 
-  const categories = events?.forEach((event) => {
-    event.categories.forEach((category) => {
-      if (!uniqueCategories.includes(category)) {
-        uniqueCategories.push(category);
-      }
-    });
-  });
+  const categories = getUniqueCategories(events);
 
   const sortedCategories = uniqueCategories.sort();
 

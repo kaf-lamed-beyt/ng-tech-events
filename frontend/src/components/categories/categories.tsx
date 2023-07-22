@@ -1,8 +1,9 @@
+import { Badge, Box, Flex, Text } from "@chakra-ui/react";
+import { getEvents } from "@utils/fetcher";
+import { getUniqueCategories } from "@utils/uniquecategories";
+import { useRouter } from "next/router";
 import React from "react";
 import useSWR from "swr";
-import { useRouter } from "next/router";
-import { getEvents } from "@utils/fetcher";
-import { Badge, Box, Flex, Text } from "@chakra-ui/react";
 
 export const Categories = () => {
   const router = useRouter();
@@ -15,13 +16,7 @@ export const Categories = () => {
   const events = data?.events;
   const eventLocations = data?.all_locations;
 
-  const categories = events?.forEach((event) => {
-    event.categories.forEach((category) => {
-      if (!uniqueCategories.includes(category)) {
-        uniqueCategories.push(category);
-      }
-    });
-  });
+  const categories = getUniqueCategories(events)
 
   const sortedCategories = uniqueCategories.sort();
 
