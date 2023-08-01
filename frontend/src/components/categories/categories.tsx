@@ -7,6 +7,7 @@ import { Badge, Box, Flex, Text } from "@chakra-ui/react";
 export const Categories = () => {
   const router = useRouter();
   const { location } = router.query;
+  // console.log(router.query);
   const [activeCategory, setCategory] = React.useState<number | null>();
 
   let uniqueCategories = [];

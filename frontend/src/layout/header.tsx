@@ -9,9 +9,15 @@ import {
   Input,
   useBreakpointValue,
 } from "@chakra-ui/react";
+import { useRouter } from "next/router";
 
 const Header = () => {
+  const router = useRouter();
   const [isExpanded, setExpanded] = React.useState(false);
+  const [search, setSearch] = React.useState("");
+  const { searchValue } = router.query;
+  // console.log(router.query);
+  // console.log(search);
 
   const expandSearchBar = () => {
     setExpanded(!false);
@@ -22,6 +28,19 @@ const Header = () => {
     base: isExpanded ? "270px !important" : "0px",
     lg: isExpanded ? "340px" : "0px",
   });
+
+  const handleSearch = (e: any) => {
+    setSearch(e.target.value);
+    let searchValue = e.target.value;
+    router.push(
+      {
+        pathname: router.pathname,
+        query: { value: searchValue },
+      },
+      undefined,
+      { scroll: false }
+    );
+  };
 
   return (
     <>
@@ -67,6 +86,8 @@ const Header = () => {
               fontSize="sm"
               className={isExpanded ? "expand" : ""}
               _placeholder={{ color: "#fff" }}
+              value={search}
+              onChange={handleSearch}
             />
             <Box
               background="var(--secondary)"

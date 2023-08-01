@@ -10,6 +10,8 @@ interface layoutProp {
 }
 
 const Layout = ({ children }: layoutProp) => {
+  const [search, setSearch] = React.useState("");
+
   return (
     <>
       <Header />

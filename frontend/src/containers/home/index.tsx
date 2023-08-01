@@ -11,7 +11,7 @@ import { EventCardSK } from "@components/skeletons";
 const Home = () => {
   const router = useRouter();
   const { query } = router;
-  const { location, category } = query;
+  const { location, category, searchValue } = query;
 
   const { data, error, isLoading } = useSWR(`/api/events`, () => getEvents(), {
     revalidateIfStale: true,
@@ -19,9 +19,30 @@ const Home = () => {
   });
 
   let uniqueCategories = [];
+  let searchCategories = [];
 
   const events = data?.events;
-  console.log(events);
+  const search = searchValue;
+  // console.log(events);
+  console.log(location);
+  console.log(searchValue);
+
+  const searching = events?.forEach((event) => {
+    if (
+      event.name.replace(/ /g, "").toLowerCase().includes(searchValue)
+      // event.description.replace(/ /g, "").toLowerCase().includes(searchValue) ||
+      // event.location.address
+      //   .replace(/ /g, "")
+      //   .toLowerCase()
+      //   .includes(searchValue) ||
+      // event.date.replace(/ /g, "").toLowerCase().includes(searchValue)
+    ) {
+      searchCategories.push(event);
+      console.log(searchCategories);
+      console.log("hin dey there");
+    }
+  });
+
   const locations = data?.all_locations;
   const states = events?.map((event) => event);
 
@@ -50,7 +71,7 @@ const Home = () => {
 
     return matchCategory && matchLocation;
   });
-
+  // console.log(search)
   return (
     <>
       <Hero />
