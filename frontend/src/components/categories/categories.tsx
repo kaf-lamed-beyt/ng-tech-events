@@ -1,27 +1,22 @@
+import { Badge, Box, Flex, Text } from "@chakra-ui/react";
+import { getEvents } from "@utils/fetcher";
+import { getUniqueCategories, setCategories } from "@utils/uniquecategories";
+import { useRouter } from "next/router";
 import React from "react";
 import useSWR from "swr";
-import { useRouter } from "next/router";
-import { getEvents } from "@utils/fetcher";
-import { Badge, Box, Flex, Text } from "@chakra-ui/react";
 
 export const Categories = () => {
   const router = useRouter();
   const { location } = router.query;
   const [activeCategory, setCategory] = React.useState<number | null>();
-
-  let uniqueCategories = [];
   const { data, error, isLoading } = useSWR("/api/events", () => getEvents());
 
   const events = data?.events;
+  if (events) {
+    setCategories(events);
+  }
   const eventLocations = data?.all_locations;
-
-  const categories = events?.forEach((event) => {
-    event.categories.forEach((category) => {
-      if (!uniqueCategories.includes(category)) {
-        uniqueCategories.push(category);
-      }
-    });
-  });
+  const uniqueCategories = getUniqueCategories();
 
   const sortedCategories = uniqueCategories.sort();
 

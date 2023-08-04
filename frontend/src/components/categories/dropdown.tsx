@@ -1,17 +1,18 @@
-import React from "react";
-import useSWR from "swr";
-import { RxCaretDown } from "react-icons/rx";
-import { getEventLocations, getEvents } from "@utils/fetcher";
 import {
+  Box,
+  Flex,
   Menu,
   MenuButton,
-  MenuList,
   MenuItem,
-  Flex,
-  Box,
+  MenuList,
   Text,
 } from "@chakra-ui/react";
+import { getEventLocations, getEvents } from "@utils/fetcher";
+import { getUniqueCategories, setCategories } from "@utils/uniquecategories";
 import { useRouter } from "next/router";
+import React from "react";
+import { RxCaretDown } from "react-icons/rx";
+import useSWR from "swr";
 
 export const Location = () => {
   const router = useRouter();
@@ -33,18 +34,12 @@ export const Location = () => {
     { revalidateOnFocus: true }
   );
 
-  let uniqueCategories = [];
-
   const locations = data?.all_locations;
   const events = data?.events;
-
-  const categories = events?.forEach((event) => {
-    event.categories.forEach((category) => {
-      if (!uniqueCategories.includes(category)) {
-        uniqueCategories.push(category);
-      }
-    });
-  });
+  if (events) {
+    setCategories(events);
+  }
+  const uniqueCategories = getUniqueCategories();
 
   error ? <Text>Erorr fetching event locations</Text> : null;
 
@@ -63,7 +58,9 @@ export const Location = () => {
         query: {
           location: slug,
           category:
-            !category || categories === "" ? uniqueCategories[0] : category,
+            !category || uniqueCategories.length === 0
+              ? uniqueCategories[0]
+              : category,
         },
       },
       undefined,
@@ -110,7 +107,7 @@ export const Location = () => {
         background="var(--deep-charcoal)"
         border="1px solid var(--bg-two)"
       >
-        {locations?.map((location, index) => {
+        {locations?.map((location: string, index: number) => {
           return (
             <MenuItem
               key={index}

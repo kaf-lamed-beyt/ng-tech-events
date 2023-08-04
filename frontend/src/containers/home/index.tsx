@@ -1,12 +1,14 @@
-import useSWR from "swr";
-import React from "react";
-import Hero from "@components/hero";
 import { Box, Text, filter } from "@chakra-ui/react";
-import { useRouter } from "next/router";
 import { Categories, Location } from "@components/categories";
+import Hero from "@components/hero";
+import { useRouter } from "next/router";
+import React from "react";
+import useSWR from "swr";
+
 import Events from "@components/event-card";
-import { getEvents } from "@utils/fetcher";
 import { EventCardSK } from "@components/skeletons";
+import { getEvents } from "@utils/fetcher";
+import { getUniqueCategories, setCategories } from "@utils/uniquecategories";
 
 const Home = () => {
   const router = useRouter();
@@ -18,24 +20,18 @@ const Home = () => {
     revalidateOnFocus: true,
   });
 
-  let uniqueCategories = [];
-
   const events = data?.events;
   const locations = data?.all_locations;
   const states = events?.map((event) => event);
-
-  const categories = events?.forEach((event) => {
-    event.categories.forEach((category) => {
-      if (!uniqueCategories.includes(category)) {
-        uniqueCategories.push(category);
-      }
-    });
-  });
+  if (events) {
+    setCategories(events);
+  }
+  const uniqueCategories = getUniqueCategories();
 
   const sortedCategories = uniqueCategories.sort();
 
   const mod_location =
-    typeof location === "string" && locations.includes("-")
+    typeof location === "string" && locations?.includes("-")
       ? location.replace("-", " ")
       : location;
 
