@@ -107,7 +107,7 @@ export const Location = () => {
         background="var(--deep-charcoal)"
         border="1px solid var(--bg-two)"
       >
-        {locations?.map((location: string, index: any) => {
+        {locations?.map((location: string, index: number) => {
           return (
             <MenuItem
               key={index}
