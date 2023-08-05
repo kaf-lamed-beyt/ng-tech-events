@@ -1,4 +1,3 @@
-import { categories } from "@containers/data";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function eventsApiRoute(
