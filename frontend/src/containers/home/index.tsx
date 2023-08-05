@@ -1,4 +1,4 @@
-import { Box, Text, filter } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { Categories, Location } from "@components/categories";
 import Hero from "@components/hero";
 import { useRouter } from "next/router";
@@ -15,10 +15,14 @@ const Home = () => {
   const { query } = router;
   const { location, category } = query;
 
-  const { data, error, isLoading } = useSWR(`/api/events`, () => getEvents(), {
-    revalidateIfStale: true,
-    revalidateOnFocus: true,
-  });
+  const { data, error, isLoading, isValidating } = useSWR(
+    `/api/events`,
+    () => getEvents(),
+    {
+      revalidateIfStale: true,
+      revalidateOnFocus: true,
+    }
+  );
 
   const events = data?.events;
   const locations = data?.all_locations;
@@ -62,7 +66,7 @@ const Home = () => {
         <>
           <Location />
           <Categories />
-          {isLoading ? (
+          {isValidating || isLoading ? (
             <EventCardSK count={events} />
           ) : (
             <>

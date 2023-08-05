@@ -45,8 +45,11 @@ export default async function eventsApiRoute(
               : item.toLocaleLowerCase().trim()
           );
 
+        const name = eventName.replace("**", "").replace("&mdash;", "—");
+
         return {
-          name: eventName.replace("**", "").replace("&mdash;", "—"),
+          name,
+          slug: name.split(" ").join("-").toLocaleLowerCase(),
           description: columns[2].replace("<br/>", "\n"),
           date: columns[3],
           time: columns[4],

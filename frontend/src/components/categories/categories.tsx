@@ -58,7 +58,7 @@ export const Categories = () => {
             fontWeight="normal"
             borderRadius="1.7em"
             textTransform={
-              item === "iot" || item === "ml" ? "uppercase" : "capitalize"
+              item === "iot" || item === "ml" ? "uppercase" : "lowercase"
             }
             onClick={() => handleCategory(index)}
             _hover={{ cursor: "pointer" }}
