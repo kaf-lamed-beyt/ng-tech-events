@@ -7,6 +7,7 @@
   <a href="#lagos">Lagos</a> &#183;
   <a href="#portharcourt">Port Harcourt</a> &#183;
   <a href="#ibadan">Ibadan</a> &#183;
+  <a href="#imo">Imo</a> &#183;
   <a href="#osun">Osun</a> &#183;
 </p>
 <p align="center">A pool of upcoming and past tech events in 9ja's tech ecosystem</p> <p align="center">Want to contribute? Read the <a href="CONTRIBUTING.md">guideline</p>
@@ -77,6 +78,12 @@
 | **DevFest Ibadan 2023**                               | Join us for the annual developer festival of sessions, workshops, training, codelabs, and much more by awesome speakers.<br/>DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world.                                                                               | (To be announced)           | (To be announced) | (To be announced)                                 | N/A                                                                                                                  | Web, Mobile                                  |
 | **Flutter Forward Extended Ibadan 2023**              | A meetup by GDG Ibadan and Flutter Ibadan                                                                                                                                                                                                                                                                | Saturday, April 15, 2023    | 12pm              | Ibadan, Nigeria                                   | N/A                                                                                                                  | Mobile, Flutter                              |
 | **DevFest Ibadan 2023**                               | DevFest Ibadan is an annual decentralized tech conference hosted by the Google Developer Groups (GDG) Ibadan.                                                                                                                                                                                            | Saturday, December 2, 2023  | 9:00AM WAT        | Ibadan (exact location &mdash; TBA)               | Register [here](https://gdg.community.dev/events/details/google-gdg-ibadan-presents-devfest-ibadan-2023/)            | Ai, career-development, web, general, design |
+
+# Imo
+
+| Name                | Description                                                                                    | Date                         | Time       | Venue                                       | Register                                                                                                  | Category                                          |
+| ------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------- | ---------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| DevFest Owerri 2023 | DevFests are local tech conferences hosted by Google Developer Groups (GDGs) around the world. | Saturdayy, November 25, 2023 | 9:00AM WAT | Owerri Imo - Owerri, Building Owerri, 43001 | Register [here](https://gdg.community.dev/events/details/google-gdg-owerri-presents-devfest-owerri-2023/) | hybrid, devfest, general, web, design, UI, mobile |
 
 # Osun
 
