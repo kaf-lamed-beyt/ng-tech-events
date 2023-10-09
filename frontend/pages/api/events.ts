@@ -48,7 +48,14 @@ export default async function eventsApiRoute(
 
         return {
           name,
-          slug: name.replace(":", " ").split(" ").join("-").toLocaleLowerCase(),
+          slug: name
+            .replace(":", "")
+            .split(" ")
+            .join("-")
+            .toLocaleLowerCase()
+            .replace("(", "")
+            .replace(")", "")
+            .replace("/", "-"),
           description: columns[2].replace("<br/>", "\n"),
           date: columns[3],
           time: columns[4],
