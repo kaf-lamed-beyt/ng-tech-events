@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("clash-display.css");
+@import url("sf-pro-display.css");
 
 :root {
   --primary: #000000;
@@ -22,6 +24,34 @@
 
   // families
   --bebas: "Bebas Neue", sans-serif;
+  --clash-display-200: "ClashDisplay-Extralight";
+  --clash-display-300: "ClashDisplay-Light";
+  --clash-display-400: "ClashDisplay-Regular";
+  --clash-display-500: "ClashDisplay-Medium";
+  --clash-display-600: "ClashDisplay-Semibold";
+  --clash-display-700: "ClashDisplay-Bold";
+  --sf-pro-display-400: "SFProDisplayRegular";
+}
+.clash-display-200 {
+  font-family: var(--clash-display-200);
+}
+.clash-display-300 {
+  font-family: var(--clash-display-300);
+}
+.clash-display-400 {
+  font-family: var(--clash-display-400);
+}
+.clash-display-500 {
+  font-family: var(--clash-display-500);
+}
+.clash-display-600 {
+  font-family: var(--clash-display-600);
+}
+.clash-display-700 {
+  font-family: var(--clash-display-700);
+}
+.sf-pro-display-400 {
+  font-family: var(--sf-pro-display-400);
 }
 
 body {
