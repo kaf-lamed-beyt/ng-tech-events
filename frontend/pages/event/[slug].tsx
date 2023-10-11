@@ -113,7 +113,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
           >
             Date, Time & Location
           </Text>
-          <Flex alignItems="center" columnGap="3.22rem" mb="4.5rem">
+          <Flex alignItems="center" justifyContent="space-between" mb="4.5rem">
             <Flex alignItems="center" columnGap="0.75rem">
               <Image src={Calendar} alt="Date" />
               <Text
