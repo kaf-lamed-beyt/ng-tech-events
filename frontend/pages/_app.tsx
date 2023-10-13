@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
 
       <main className={inter.className}>
         <ChakraProvider theme={theme}>
-          <Component pageProps={...pageProps} />
+          <Component {...pageProps} />
         </ChakraProvider>
       </main>
     </>
