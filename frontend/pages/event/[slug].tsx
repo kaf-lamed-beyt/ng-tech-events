@@ -10,6 +10,15 @@ import Image from "next/image";
 import Calendar from "../../public/calendar.svg";
 import Time from "../../public/time.svg";
 import Location from "../../public/location.svg";
+import { Inter } from "next/font/google";
+
+const Inter_Font = Inter({
+  subsets: ["latin"],
+  fallback: ["system-ui"],
+  weight: ["400", "500"],
+});
+
+const InterClassName = Inter_Font.className;
 
 export async function getStaticPaths() {
   const request = await fetch("https://ng-tech-events.netlify.app/api/events", {
@@ -37,6 +46,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
     },
   });
   const response = (await request.json()) as EventObject;
+
   return {
     props: {
       data: response,
@@ -44,10 +54,10 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   };
 }
 
-const EventDetails = (props: { pageProps: { data: EventObject } }) => {
+const EventDetails = (props: { data: EventObject }) => {
   const router = useRouter();
   const slug = router.query.slug as string;
-  const event: EventData | undefined = props.pageProps.data.events.find(
+  const event: EventData | undefined = props.data.events.find(
     (event) => event.slug === slug
   );
 
@@ -89,7 +99,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
             color="#fff"
             fontWeight="500"
             letterSpacing="0.22463rem"
-            className="clash-display-500"
+            className={InterClassName}
           >
             {event.name}
           </Text>
@@ -97,7 +107,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
             fontSize="1.5rem"
             mb="3rem"
             color="#eee"
-            className="sf-pro-display-400"
+            className={InterClassName}
             fontWeight="400"
             letterSpacing="0.09rem"
           >
@@ -107,7 +117,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
             fontSize="2rem"
             color="#fff"
             fontWeight="500"
-            className="clash-display-500"
+            className={InterClassName}
             letterSpacing="0.12rem"
             mb="1.25rem"
           >
@@ -120,7 +130,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
                 color="#eee"
                 fontSize="1.5rem"
                 fontWeight="400"
-                className="sf-pro-display-400"
+                className={InterClassName}
                 letterSpacing="0.09rem"
               >
                 {event.date}
@@ -132,7 +142,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
                 color="#eee"
                 fontSize="1.5rem"
                 fontWeight="400"
-                className="sf-pro-display-400"
+                className={InterClassName}
                 letterSpacing="0.09rem"
               >
                 {event.time}
@@ -144,7 +154,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
                 color="#eee"
                 fontSize="1.5rem"
                 fontWeight="400"
-                className="sf-pro-display-400"
+                className={InterClassName}
                 letterSpacing="0.09rem"
               >
                 {event.location.address}
@@ -157,7 +167,7 @@ const EventDetails = (props: { pageProps: { data: EventObject } }) => {
           <Box
             borderRadius="0.625rem"
             border="1px solid var(--bubu, #CCFF78)"
-            className="clash-display-500"
+            className={InterClassName}
             bg="#212121"
             color="#FFF"
             py="1.31rem"
