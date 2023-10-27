@@ -1,4 +1,4 @@
-import { Box, Text, Flex, Center } from "@chakra-ui/react";
+import { Box, Text, Flex, Center, Button } from "@chakra-ui/react";
 import type { EventObject, EventData } from "../../src/types/index";
 import fetch from "node-fetch";
 import React from "react";
@@ -6,11 +6,8 @@ import type { GetStaticPropsContext } from "next";
 import { MetaData } from "@components/metadata";
 import Layout from "@layout/index";
 import { useRouter } from "next/router";
-import Image from "next/image";
-import Calendar from "../../public/calendar.svg";
-import Time from "../../public/time.svg";
-import Location from "../../public/location.svg";
 import { Inter } from "next/font/google";
+import { CiClock1, CiLocationOn, CiCalendarDate } from "react-icons/ci";
 
 const Inter_Font = Inter({
   subsets: ["latin"],
@@ -30,7 +27,7 @@ export async function getStaticPaths() {
 
   const response = (await request.json()) as EventObject;
 
-  const paths = response.events.map((eventData) => "/event/" + eventData.slug);
+  const paths = response.events.map((eventData) => `/event/${eventData.slug}`);
 
   return {
     paths,
@@ -58,14 +55,23 @@ const EventDetails = (props: { data: EventObject }) => {
   const router = useRouter();
   const slug = router.query.slug as string;
   const event: EventData | undefined = props.data.events.find(
-    (event) => event.slug === slug
+    (event) => slug === slug
   );
+
+  const {
+    name,
+    time,
+    date,
+    link,
+    location: { address, state },
+    description,
+  } = event;
 
   if (!event) {
     return (
       <>
         <Center>
-          <Text fontSize="9xl" color="grey">
+          <Text fontSize="6em" color="grey">
             This event doesn't exist
           </Text>
         </Center>
@@ -76,111 +82,158 @@ const EventDetails = (props: { data: EventObject }) => {
   return (
     <>
       <MetaData
-        url={"9ja-events.tech" + "/event/" + event.slug}
-        pageTitle={event.name}
+        url="ng-tech-events.netlify.app"
+        pageTitle={name}
         description="A pool of upcoming and past tech events in 9ja's tech ecosystem"
         previewImage="/img/preview.png"
       />
       <Layout>
-        <Box mt="2.38rem" mb="3.25rem">
+        <Box mt="1.5em" mb="2.5em">
           <Box
-            borderRadius="3.125rem"
+            borderRadius="1.25em"
             borderStyle="solid"
             borderColor="white"
-            borderWidth="4px"
+            borderWidth="0.25em"
             aspectRatio="2.746"
             width="100%"
-          ></Box>
-        </Box>
-        <Box ml="2.57rem" mr="1.88rem">
-          <Text
-            fontSize="3.74356rem"
-            mb="1.25rem"
-            color="#fff"
-            fontWeight="500"
-            letterSpacing="0.22463rem"
-            className={InterClassName}
+            py="1.6em"
+            px="1em"
           >
-            {event.name}
-          </Text>
+            <Text
+              fontSize="2.5em"
+              mb="0.833em"
+              color="#fff"
+              fontWeight="500"
+              letterSpacing="0.05em"
+              className={InterClassName}
+            >
+              {name}
+            </Text>
+          </Box>
+        </Box>
+        <Box ml="1.5em" mr="1.1em">
           <Text
-            fontSize="1.5rem"
-            mb="3rem"
+            fontSize="1.3em"
+            mb="2.5em"
             color="#eee"
             className={InterClassName}
             fontWeight="400"
-            letterSpacing="0.09rem"
+            letterSpacing="0.03em"
           >
-            {event.description === "None" ? "" : event.description}
+            {description === "None" ? "" : description}
           </Text>
           <Text
-            fontSize="2rem"
+            fontSize="1.333em"
             color="#fff"
             fontWeight="500"
             className={InterClassName}
-            letterSpacing="0.12rem"
-            mb="1.25rem"
+            letterSpacing="0.07em"
+            mb="0.833em"
           >
             Date, Time & Location
           </Text>
-          <Flex alignItems="center" justifyContent="space-between" mb="4.5rem">
-            <Flex alignItems="center" columnGap="0.75rem">
-              <Image src={Calendar} alt="Date" />
+          <Flex
+            alignItems="center"
+            justifyContent="space-between"
+            mb="2.25em"
+            flexWrap={{ base: "wrap" }}
+            gap={["1em", ".8em"]}
+          >
+            <Flex alignItems="center" gap={[".5em"]}>
+              <Box
+                background="var(--charcoal-alt)"
+                height="48px"
+                width="50px"
+                px=".65em"
+                py=".5em"
+                borderRadius="6px"
+                alignItems="center"
+              >
+                <CiCalendarDate color="#fff" size={30} />
+              </Box>
               <Text
                 color="#eee"
-                fontSize="1.5rem"
+                fontSize="1em"
                 fontWeight="400"
                 className={InterClassName}
-                letterSpacing="0.09rem"
+                letterSpacing="0.03em"
               >
-                {event.date}
+                {date}
               </Text>
             </Flex>
-            <Flex alignItems="center" columnGap="0.75rem">
-              <Image src={Time} alt="Time" />
+            <Flex alignItems="center" gap={[".5em"]}>
+              <Box
+                background="var(--charcoal-alt)"
+                height="48px"
+                width="50px"
+                px=".65em"
+                py=".5em"
+                borderRadius="6px"
+                alignItems="center"
+              >
+                <CiLocationOn color="#fff" size={30} />
+              </Box>
               <Text
                 color="#eee"
-                fontSize="1.5rem"
+                fontSize="1em"
                 fontWeight="400"
                 className={InterClassName}
-                letterSpacing="0.09rem"
+                letterSpacing="0.03em"
               >
-                {event.time}
+                {time}
               </Text>
             </Flex>
-            <Flex alignItems="center" columnGap="0.75rem">
-              <Image src={Location} alt="Location" />
+            <Flex alignItems="center" gap={[".5em"]}>
+              <Box
+                background="var(--charcoal-alt)"
+                height="48px"
+                width="50px"
+                px=".65em"
+                py=".5em"
+                borderRadius="6px"
+                alignItems="center"
+              >
+                <CiClock1 color="#fff" size={30} />
+              </Box>
               <Text
                 color="#eee"
-                fontSize="1.5rem"
+                fontSize="1em"
                 fontWeight="400"
                 className={InterClassName}
-                letterSpacing="0.09rem"
+                letterSpacing="0.03em"
               >
-                {event.location.address}
-                {event.location.state || !event.location.state
-                  ? ""
-                  : ", " + event.location.state}
+                {address}
+                {state || !state ? "" : `, ${state}`}
               </Text>
             </Flex>
           </Flex>
-          <Box
-            borderRadius="0.625rem"
-            border="1px solid var(--bubu, #CCFF78)"
-            className={InterClassName}
-            bg="#212121"
-            color="#FFF"
-            py="1.31rem"
-            px="11.94rem"
-            fontSize="1.5rem"
-            mb="12rem"
-          >
-            <Center>
-              <a href={event.link} target="_blank">
-                Register
+          <Center>
+            <Box
+              backgroundImage="var(--nin)"
+              height="47px"
+              px=".14em"
+              borderRadius="6px"
+              width={{ md: "50%", lg: "50%", base: "100%" }}
+            >
+              <a href={link} target="_blank">
+                <Button
+                  mt=".14em"
+                  className={InterClassName}
+                  bg="var(--charcoal-alt)"
+                  color="#FFF"
+                  fontSize="1em"
+                  py="1.2em"
+                  width="100%"
+                  height="43px"
+                  textAlign="center"
+                  fontWeight="normal"
+                  _hover={{ background: "var(--charcoal-alt)" }}
+                >
+                  Register
+                </Button>
               </a>
-            </Center>
-          </Box>
+            </Box>
+          </Center>
         </Box>
       </Layout>
     </>
