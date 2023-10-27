@@ -1,13 +1,12 @@
-import { Box, Text } from "@chakra-ui/react";
-import { Categories, Location } from "@components/categories";
-import Hero from "@components/hero";
-import { useRouter } from "next/router";
 import React from "react";
 import useSWR from "swr";
-
-import Events from "@components/event-card";
-import { EventCardSK } from "@components/skeletons";
+import Hero from "@components/hero";
+import { useRouter } from "next/router";
 import { getEvents } from "@utils/fetcher";
+import Events from "@components/event-card";
+import { Box, Text } from "@chakra-ui/react";
+import { EventCardSK } from "@components/skeletons";
+import { Categories, Location } from "@components/categories";
 import { getUniqueCategories, setCategories } from "@utils/uniquecategories";
 
 const Home = () => {
@@ -66,7 +65,7 @@ const Home = () => {
         <>
           <Location />
           <Categories />
-          {isValidating || isLoading ? (
+          {isLoading ? (
             <EventCardSK count={events} />
           ) : (
             <>
