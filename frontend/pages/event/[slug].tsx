@@ -2,7 +2,6 @@ import { Box, Text, Flex, Center, Button } from "@chakra-ui/react";
 import type { EventObject, EventData } from "../../src/types/index";
 import fetch from "node-fetch";
 import React from "react";
-import type { GetStaticPropsContext } from "next";
 import { MetaData } from "@components/metadata";
 import Layout from "@layout/index";
 import { useRouter } from "next/router";
@@ -27,7 +26,11 @@ export async function getStaticPaths() {
 
   const response = (await request.json()) as EventObject;
 
-  const paths = response.events.map((eventData) => `/event/${eventData.slug}`);
+  const paths = response.events.map((eventData) => ({
+    params: {
+      slug: eventData.slug,
+    },
+  }));
 
   return {
     paths,
@@ -35,13 +38,14 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps(context: GetStaticPropsContext) {
+export async function getStaticProps() {
   const request = await fetch("https://ng-tech-events.netlify.app/api/events", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
     },
   });
+
   const response = (await request.json()) as EventObject;
 
   return {
@@ -55,7 +59,7 @@ const EventDetails = (props: { data: EventObject }) => {
   const router = useRouter();
   const slug = router.query.slug as string;
   const event: EventData | undefined = props.data.events.find(
-    (event) => slug === slug
+    (event) => event.slug === slug
   );
 
   const {
