@@ -28,11 +28,9 @@ export const Location = () => {
     setHovered(null);
   };
 
-  const { data, error, isValidating } = useSWR(
-    "/api/events",
-    () => getEvents(),
-    { revalidateOnFocus: true }
-  );
+  const { data, error } = useSWR("/api/events", () => getEvents(), {
+    revalidateOnFocus: true,
+  });
 
   const locations = data?.all_locations;
   const events = data?.events;

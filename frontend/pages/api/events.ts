@@ -25,7 +25,9 @@ export default async function eventsApiRoute(
       ];
       const matchedTables = (await readmeContent).match(tableRegex);
 
-      states = matchedLocations.map((state) => state[1].toLocaleLowerCase());
+      states = matchedLocations.map((state) =>
+        state[1].split(" ").join("-").toLocaleLowerCase()
+      );
 
       const eventsData = matchedTables.map((event) => {
         const columns = event.split("|").map((column) => column.trim());

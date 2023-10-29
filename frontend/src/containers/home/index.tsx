@@ -33,23 +33,29 @@ const Home = () => {
 
   const uniqueCategories = getUniqueCategories();
 
-  const sortedCategories = uniqueCategories.sort();
+  const mod_location = location;
 
-  const mod_location =
-    typeof location === "string" && locations?.includes("-")
-      ? location.replace("-", " ")
-      : location;
-
-  let matchCategory;
-  let matchLocation;
+  let matchedCategory;
+  let matchedLocation;
 
   const filteredEvents = states?.filter((event) => {
-    matchCategory = event.categories.includes(category);
-    matchLocation =
-      mod_location === "" || event.location.state === mod_location;
+    matchedCategory = event.categories.includes(category);
+    matchedLocation = event?.location.state === mod_location;
 
-    return matchCategory && matchLocation;
+    if (matchedCategory) {
+      return matchedCategory;
+    } else if (matchedLocation) {
+      return matchedLocation;
+    } else {
+      return matchedCategory && matchedLocation;
+    }
   });
+
+  const filteredLocations = filteredEvents.map(
+    (events) => events.location.state
+  );
+  const filteredCategories = filteredEvents.map((events) => events.categories);
+  const mergedCats = filteredCategories.toString().split(",");
 
   return (
     <>
@@ -86,7 +92,7 @@ const Home = () => {
                       width={{ base: "100%" }}
                     >
                       Oops! There are no events{" "}
-                      {!matchCategory
+                      {matchedCategory
                         ? `under this category: ${category},`
                         : null}{" "}
                       in this location. Sorry 😩
@@ -94,6 +100,10 @@ const Home = () => {
                   ) : (
                     <Events data={filteredEvents} />
                   )}
+                  {/* {mergedCats.includes(category) &&
+                  filteredLocations.includes(location)
+                    ? "yes"
+                    : "no"} */}
                 </>
               )}
             </>
