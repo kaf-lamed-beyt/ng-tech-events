@@ -69,9 +69,7 @@ export const Categories = () => {
               index === activeCategory ? "#fff" : "var(--deep-charcoal)"
             }
             color={
-              index === activeCategory || activeCategory
-                ? "var(--primary)"
-                : "var(--secondary)"
+              index === activeCategory ? "var(--primary)" : "var(--secondary)"
             }
           >
             <Text fontSize="1.3em">{item}</Text>
