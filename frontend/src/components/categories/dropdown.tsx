@@ -24,7 +24,7 @@ export const Location = () => {
     setHovered(index);
   };
 
-  const unHover = () => {
+  const onHover = () => {
     setHovered(null);
   };
 
@@ -116,7 +116,7 @@ export const Location = () => {
               }}
               textTransform="capitalize"
               onMouseEnter={() => handleHoveredItem(index)}
-              onMouseLeave={unHover}
+              onMouseLeave={onHover}
               color="#fff"
               background={
                 isHovered === index ? "var(--bg-two)" : "var(--deep-charcoal)"

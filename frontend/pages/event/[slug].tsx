@@ -184,7 +184,8 @@ const EventDetails = (props: { data: EventObject }) => {
                 className={InterClassName}
                 letterSpacing="0.03em"
               >
-                {time}
+                {address}
+                {state || !state ? "" : `, ${state}`}
               </Text>
             </Flex>
             <Flex alignItems="center" gap={[".5em"]}>
@@ -206,8 +207,7 @@ const EventDetails = (props: { data: EventObject }) => {
                 className={InterClassName}
                 letterSpacing="0.03em"
               >
-                {address}
-                {state || !state ? "" : `, ${state}`}
+                {time}
               </Text>
             </Flex>
           </Flex>
