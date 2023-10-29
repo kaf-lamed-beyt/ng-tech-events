@@ -31,9 +31,7 @@ export const Categories = () => {
       {
         pathname: router.pathname,
         query: {
-          location: !eventLocations.includes(location)
-            ? eventLocations[0]
-            : location,
+          location: location === "" ? eventLocations[0] : location,
           category: selectedCategory,
         },
       },
