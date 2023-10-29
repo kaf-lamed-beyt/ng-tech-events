@@ -35,14 +35,9 @@ export default async function eventsApiRoute(
           columns[5].toLocaleLowerCase().includes(name)
         );
 
-        // split and remove whitespace
         const categories = columns[7]
           .split(",")
-          .map((item) =>
-            item.trimStart().includes(" ")
-              ? item.replace(" ", "-").toLocaleLowerCase()
-              : item.toLocaleLowerCase().trim()
-          );
+          .map((item) => item.trim().split(" ").join("-").toLocaleLowerCase());
 
         const name = eventName.replace("**", "").replace("&mdash;", "—");
 
