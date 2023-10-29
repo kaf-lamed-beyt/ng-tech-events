@@ -31,6 +31,7 @@ const Events = ({ data }: eventProps) => {
               <Box
                 boxSize="fit-content"
                 height="100%"
+                width="100%"
                 borderRadius="7px"
                 background="var(--charcoal-alt)"
                 py=".4em"

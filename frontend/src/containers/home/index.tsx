@@ -26,9 +26,11 @@ const Home = () => {
   const events = data?.events;
   const locations = data?.all_locations;
   const states = events?.map((event) => event);
+
   if (events) {
     setCategories(events);
   }
+
   const uniqueCategories = getUniqueCategories();
 
   const sortedCategories = uniqueCategories.sort();
@@ -51,7 +53,8 @@ const Home = () => {
 
   return (
     <>
-      <Hero />
+      {/* temporarily remove the hero section so people can get acess to the platform faster instead of scrolling */}
+      {/* <Hero /> */}
       <Box my="1em">
         <Text fontFamily="var(--bebas)" fontSize="2em" color="#fff" mt="1.3em">
           Events happening {location === "online" || !location ? "" : "in"}
@@ -83,8 +86,10 @@ const Home = () => {
                       width={{ base: "100%" }}
                     >
                       Oops! There are no events{" "}
-                      {!matchCategory ? "under this category" : null} in this
-                      location. Sorry 😩
+                      {!matchCategory
+                        ? `under this category: ${category},`
+                        : null}{" "}
+                      in this location. Sorry 😩
                     </Text>
                   ) : (
                     <Events data={filteredEvents} />
