@@ -62,13 +62,13 @@ const Home = () => {
       </Box>
       {error ? (
         <Text textAlign="center" color="#fff">
-          Error fetching events
+          Error fetching events data
         </Text>
       ) : (
         <>
           <Location />
           <Categories />
-          {isLoading ? (
+          {isLoading || isValidating ? (
             <EventCardSK count={events} />
           ) : (
             <>
