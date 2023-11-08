@@ -36,7 +36,7 @@ cd ng-tech-events
 
 - Create a branch and start working on your feature.
 
-```shell
+```shellg
     git checkout -b [branch-name]
 ```
 
