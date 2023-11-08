@@ -34,6 +34,7 @@ const Header = () => {
         width="100%"
         px=".6em"
         py="1em"
+        zIndex={2}
         backdropFilter="blur(10px)"
       >
         <Flex>
