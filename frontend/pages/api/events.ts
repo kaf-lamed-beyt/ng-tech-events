@@ -25,7 +25,9 @@ export default async function eventsApiRoute(
       ];
       const matchedTables = (await readmeContent).match(tableRegex);
 
-      states = matchedLocations.map((state) => state[1].toLocaleLowerCase());
+      states = matchedLocations.map((state) =>
+        state[1].split(" ").join("-").toLocaleLowerCase()
+      );
 
       const eventsData = matchedTables.map((event) => {
         const columns = event.split("|").map((column) => column.trim());
@@ -35,20 +37,22 @@ export default async function eventsApiRoute(
           columns[5].toLocaleLowerCase().includes(name)
         );
 
-        // split and remove whitespace
         const categories = columns[7]
           .split(",")
-          .map((item) =>
-            item.trimStart().includes(" ")
-              ? item.replace(" ", "-").toLocaleLowerCase()
-              : item.toLocaleLowerCase().trim()
-          );
+          .map((item) => item.trim().split(" ").join("-").toLocaleLowerCase());
 
         const name = eventName.replace("**", "").replace("&mdash;", "—");
 
         return {
           name,
-          slug: name.split(" ").join("-").toLocaleLowerCase(),
+          slug: name
+            .replace(":", "")
+            .split(" ")
+            .join("-")
+            .toLocaleLowerCase()
+            .replace("(", "")
+            .replace(")", "")
+            .replace("/", "-"),
           description: columns[2].replace("<br/>", "\n"),
           date: columns[3],
           time: columns[4],

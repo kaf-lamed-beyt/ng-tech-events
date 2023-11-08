@@ -15,26 +15,23 @@ interface eventProps {
 
 const Events = ({ data }: eventProps) => {
   return (
-    <Flex
-      gap={["0em", "1.2em"]}
-      flexWrap={{ lg: "wrap", base: "wrap" }}
-      my="1.4em"
-    >
+    <Flex gap={["0em", "1.2em"]} flexWrap="wrap" my="1.4em">
       {data?.map(({ slug, name, date, location: { address } }, index) => {
         return (
-          <Link href={`/event/${slug}`} key={index}>
-            <Box
-              p="1px"
-              backgroundImage="var(--bubu)"
-              borderRadius="8px"
-              width={{ lg: "23.2%", md: "48%", base: "100%" }}
-              height={{ lg: "320px", base: "100%", md: "100%" }}
-              my={{ base: ".3em" }}
-              mx={{ base: ".1em" }}
-            >
+          <Box
+            p="1px"
+            backgroundImage="var(--bubu)"
+            borderRadius="8px"
+            width={{ lg: "23.5%", md: "48%", base: "100%" }}
+            height={{ lg: "320px", base: "100%", md: "100%" }}
+            my={{ base: ".3em" }}
+            mx={{ base: ".1em" }}
+          >
+            <Link href={`/event/${slug}`} key={index}>
               <Box
                 boxSize="fit-content"
                 height="100%"
+                width="100%"
                 borderRadius="7px"
                 background="var(--charcoal-alt)"
                 py=".4em"
@@ -45,7 +42,8 @@ const Events = ({ data }: eventProps) => {
                   alt="preview"
                   loading="lazy"
                   borderRadius="6px"
-                  height=""
+                  boxSize="fit-content"
+                  background="var(--charcoal-alt)"
                 />
                 <Box fontSize="12px" height="fit-content" py=".3em">
                   <Text py=".4em" color="#fff" fontWeight="600">
@@ -60,8 +58,8 @@ const Events = ({ data }: eventProps) => {
                   </Text>
                 </Box>
               </Box>
-            </Box>
-          </Link>
+            </Link>
+          </Box>
         );
       })}
     </Flex>

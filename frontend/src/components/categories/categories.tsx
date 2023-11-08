@@ -9,12 +9,14 @@ export const Categories = () => {
   const router = useRouter();
   const { location } = router.query;
   const [activeCategory, setCategory] = React.useState<number | null>();
-  const { data, error, isLoading } = useSWR("/api/events", () => getEvents());
+  const { data } = useSWR("/api/events", () => getEvents());
 
   const events = data?.events;
+
   if (events) {
     setCategories(events);
   }
+
   const eventLocations = data?.all_locations;
   const uniqueCategories = getUniqueCategories();
 
@@ -29,9 +31,7 @@ export const Categories = () => {
       {
         pathname: router.pathname,
         query: {
-          location: !eventLocations.includes(location)
-            ? eventLocations[0]
-            : location,
+          location: location === "" ? eventLocations[0] : location,
           category: selectedCategory,
         },
       },
@@ -45,7 +45,7 @@ export const Categories = () => {
       mt="1.2em"
       gap={["1em", "1em"]}
       width={{ lg: "fit-content", base: "100%" }}
-      flexWrap={{ lg: "wrap" }}
+      flexWrap={{ lg: "wrap", base: "wrap" }}
       overflowX="auto"
     >
       {uniqueCategories?.map((item, index) => {

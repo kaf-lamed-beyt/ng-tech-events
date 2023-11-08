@@ -1,13 +1,12 @@
-import { Box, Text } from "@chakra-ui/react";
-import { Categories, Location } from "@components/categories";
-import Hero from "@components/hero";
-import { useRouter } from "next/router";
 import React from "react";
 import useSWR from "swr";
-
-import Events from "@components/event-card";
-import { EventCardSK } from "@components/skeletons";
+import Hero from "@components/hero";
+import { useRouter } from "next/router";
 import { getEvents } from "@utils/fetcher";
+import Events from "@components/event-card";
+import { Box, Text } from "@chakra-ui/react";
+import { EventCardSK } from "@components/skeletons";
+import { Categories, Location } from "@components/categories";
 import { getUniqueCategories, setCategories } from "@utils/uniquecategories";
 
 const Home = () => {
@@ -27,32 +26,41 @@ const Home = () => {
   const events = data?.events;
   const locations = data?.all_locations;
   const states = events?.map((event) => event);
+
   if (events) {
     setCategories(events);
   }
+
   const uniqueCategories = getUniqueCategories();
 
-  const sortedCategories = uniqueCategories.sort();
+  const mod_location = location;
 
-  const mod_location =
-    typeof location === "string" && locations?.includes("-")
-      ? location.replace("-", " ")
-      : location;
-
-  let matchCategory;
-  let matchLocation;
+  let matchedCategory;
+  let matchedLocation;
 
   const filteredEvents = states?.filter((event) => {
-    matchCategory = event.categories.includes(category);
-    matchLocation =
-      mod_location === "" || event.location.state === mod_location;
+    matchedCategory = event.categories.includes(category);
+    matchedLocation = event?.location.state === mod_location;
 
-    return matchCategory && matchLocation;
+    if (matchedCategory) {
+      return matchedCategory;
+    } else if (matchedLocation) {
+      return matchedLocation;
+    } else {
+      return matchedCategory && matchedLocation;
+    }
   });
+
+  const filteredLocations = filteredEvents.map(
+    (events) => events.location.state
+  );
+  const filteredCategories = filteredEvents.map((events) => events.categories);
+  const mergedCats = filteredCategories.toString().split(",");
 
   return (
     <>
-      <Hero />
+      {/* temporarily remove the hero section so people can get acess to the platform faster instead of scrolling */}
+      {/* <Hero /> */}
       <Box my="1em">
         <Text fontFamily="var(--bebas)" fontSize="2em" color="#fff" mt="1.3em">
           Events happening {location === "online" || !location ? "" : "in"}
@@ -60,13 +68,13 @@ const Home = () => {
       </Box>
       {error ? (
         <Text textAlign="center" color="#fff">
-          Error fetching events
+          Error fetching events data
         </Text>
       ) : (
         <>
           <Location />
           <Categories />
-          {isValidating || isLoading ? (
+          {isLoading || isValidating ? (
             <EventCardSK count={events} />
           ) : (
             <>
@@ -84,12 +92,18 @@ const Home = () => {
                       width={{ base: "100%" }}
                     >
                       Oops! There are no events{" "}
-                      {!matchCategory ? "under this category" : null} in this
-                      location. Sorry 😩
+                      {matchedCategory
+                        ? `under this category: ${category},`
+                        : null}{" "}
+                      in this location. Sorry 😩
                     </Text>
                   ) : (
                     <Events data={filteredEvents} />
                   )}
+                  {/* {mergedCats.includes(category) &&
+                  filteredLocations.includes(location)
+                    ? "yes"
+                    : "no"} */}
                 </>
               )}
             </>
